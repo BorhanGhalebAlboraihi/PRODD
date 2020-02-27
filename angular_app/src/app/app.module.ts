@@ -37,7 +37,7 @@ import { CreateUserDialogComponent } from '@app/users/create-user/create-user-di
 import { EditUserDialogComponent } from '@app/users/edit-user/edit-user-dialog.component';
 import { ChangePasswordComponent } from './users/change-password/change-password.component';
 import { ResetPasswordDialogComponent } from './users/reset-password/reset-password.component';
-import { BasicDataComponent } from './Basic-Data/basic-data/basic-data.component';
+
 
 @NgModule({
   declarations: [
@@ -64,8 +64,7 @@ import { BasicDataComponent } from './Basic-Data/basic-data/basic-data.component
     EditUserDialogComponent,
     ChangePasswordComponent,
     ResetPasswordDialogComponent,
-    BasicDataComponent
-  ],
+      ],
   imports: [
     CommonModule,
     FormsModule,
