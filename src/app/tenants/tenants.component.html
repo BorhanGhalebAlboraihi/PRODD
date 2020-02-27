@@ -1,9 +1,9 @@
-<div class="row clearfix" [@routerTransition]>
+<div class="row clearfix" [@routerTransition] dir="rtl">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <div class="card main-content">
       <div class="header">
         <h2>{{ "Tenants" | localize }}</h2>
-        <ul class="header-dropdown m-r--5">
+        <ul class="header-dropdown m-l--5">
           <li>
             <button
               mat-icon-button
@@ -26,36 +26,37 @@
          <div class="row clearfix">
              <form>
                  <div class="row">
-                     <div class="col-md-6">
-                         <mat-form-field>
-                             <input matInput [placeholder]="l('Filter')" [(ngModel)]="keyword" name="keyword">
-                         </mat-form-field>
-                     </div>
-                     <div class="col-md-6">
-                         <mat-form-field>
-                             <mat-select [placeholder]="l('IsActive')" [(ngModel)]="isActive" name="isActive">
-                                 <mat-option value="">{{ 'All' | localize }}</mat-option>
-                                 <mat-option value="true">{{ 'Yes' | localize }}</mat-option>
-                                 <mat-option value="false">{{ 'No' | localize }}</mat-option>
-                             </mat-select>
-                         </mat-form-field>
-                     </div>
-                     <div class="col-md-12 text-right p-r-25">
+                   
+                                       <div class="col-md-6">
+                                           <mat-form-field>
+                                               <input matInput [placeholder]="l('Filter')" [(ngModel)]="keyword" name="keyword">
+                                           </mat-form-field>
+                                       </div>
+                                       <div class="col-md-6">
+                                          <mat-form-field >
+                                            <mat-select [placeholder]="l('IsActive')" [(ngModel)]="isActive" name="isActive" dir="rtl">
+                                              <mat-option value="">{{ 'All' | localize }}</mat-option>
+                                              <mat-option value="true">{{ 'Yes' | localize }}</mat-option>
+                                              <mat-option value="false">{{ 'No' | localize }}</mat-option>
+                                             </mat-select>
+                                           </mat-form-field>
+                                         </div>
+                     <div class="col-md-12 text-left p-l-25">
                          <button mat-raised-button color="primary" (click)="getDataPage(1)">{{ 'Search' | localize }}</button>
                      </div>
                  </div>
              </form>
           </div>
           <!--query end-->
-        <table class="table table-hover table-striped" [busy]="isTableLoading">
-          <thead>
+        <table class="table table-hover table-striped" [busy]="isTableLoading" dir="rtl">
+          <thead >
             <tr>
-              <th>{{ "TenancyName" | localize }}</th>
-              <th>{{ "Name" | localize }}</th>
+              <th style="text-align: right;">{{ "TenancyName" | localize }}</th>
+              <th style="text-align: right;">{{ "Name" | localize }}</th>
               <th>
                 <div style="text-align:center">{{ "IsActive" | localize }}</div>
               </th>
-              <th>{{ "Actions" | localize }}</th>
+              <th style="text-align: right;">{{ "Actions" | localize }}</th>
             </tr>
           </thead>
           <tbody>
@@ -118,7 +119,7 @@
         <button
           mat-mini-fab
           color="primary"
-          class="pull-right"
+          class="pull-left"
           (click)="createTenant()"
         >
           <mat-icon>add</mat-icon>

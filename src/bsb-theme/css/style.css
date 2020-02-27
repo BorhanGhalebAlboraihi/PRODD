@@ -119,17 +119,17 @@ a{cursor: pointer;
     overflow: visible; }
 
 .ls-closed .sidebar {
-  margin-left: -300px; }
+  margin-right: -300px; }
 
 .ls-closed section.content {
-  margin-left: 15px; }
+  margin-right: 15px; }
 
 .ls-closed .bars:after, .ls-closed .bars:before {
   font-family: 'Material Icons';
   font-size: 24px;
   position: absolute;
   top: 18px;
-  left: 20px;
+  right: 20px;
   margin-right: 10px;
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -158,7 +158,7 @@ a{cursor: pointer;
   transform: scale(0); }
 
 .ls-closed .navbar-brand {
-  margin-left: 30px; }
+  margin-right: 30px; }
 
 .overlay-open .bars:before {
   -moz-transform: scale(0);
@@ -2001,7 +2001,8 @@ a{cursor: pointer;
   color: #fff; }
   .bg-light-green .content .text,
   .bg-light-green .content .number {
-    color: #fff !important; }
+    color: #fff !important; 
+}
 
 .bg-lime {
   background-color: #CDDC39 !important;
@@ -2307,8 +2308,9 @@ a{cursor: pointer;
 
 .right-sidebar #settings .setting-list {
   list-style: none;
-  padding-left: 0;
-  margin-bottom: 20px; }
+    padding-right: 0;
+    margin-bottom: 20px;
+    direction: rtl; }
   .right-sidebar #settings .setting-list li {
     padding: 15px;
     position: relative;
@@ -2316,7 +2318,7 @@ a{cursor: pointer;
     .right-sidebar #settings .setting-list li .switch {
       position: absolute;
       top: 15px;
-      right: 5px; }
+      left: 5px; }
 
 .demo-choose-skin {
   list-style: none;
@@ -2477,7 +2479,7 @@ a {
   animation: none !important; }
 
 section.content {
-  margin: 100px 15px 0 315px;
+  margin: 100px 315px 0 15px;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -3020,13 +3022,14 @@ section.content {
       color: #555; }
   .card .header {
     color: #555;
+    
     padding: 20px;
     position: relative;
     border-bottom: 1px solid rgba(204, 204, 204, 0.35); }
     .card .header .header-dropdown {
       position: absolute;
       top: 20px;
-      right: 15px;
+      left: 15px;
       list-style: none; }
       .card .header .header-dropdown .dropdown-menu li {
         display: block !important; }
@@ -3202,6 +3205,7 @@ section.content {
 .info-box.hover-expand-effect:hover:after {
   width: 100%; }
 
+  
 .info-box-2 {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   height: 80px;
@@ -6751,17 +6755,17 @@ fieldset[disabled] .form-control {
     overflow: visible; }
 
 .ls-closed .sidebar {
-  margin-left: -300px; }
+  margin-right: -300px; }
 
 .ls-closed section.content {
-  margin-left: 15px; }
+  margin-right: 15px; }
 
 .ls-closed .bars:after, .ls-closed .bars:before {
   font-family: 'Material Icons';
   font-size: 24px;
   position: absolute;
   top: 18px;
-  left: 20px;
+  right: 20px;
   margin-right: 10px;
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -7539,7 +7543,7 @@ fieldset[disabled] .form-control {
   z-index: 10; }
 
 .overlay-open .sidebar {
-  margin-left: 0;
+  margin-right: 0;
   z-index: 99999999; }
 
 .sidebar {
@@ -7555,7 +7559,7 @@ fieldset[disabled] .form-control {
   height: calc(100vh - 70px);
   position: fixed;
   top: 70px;
-  left: 0;
+  right: 0;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -7563,6 +7567,7 @@ fieldset[disabled] .form-control {
   z-index: 11 !important; }
   .sidebar .legal {
     position: absolute;
+    direction: rtl;
     bottom: 0;
     width: 100%;
     border-top: 1px solid #eee;
@@ -7588,6 +7593,7 @@ fieldset[disabled] .form-control {
       font-size: 13px; }
   .sidebar .user-info {
     padding: 13px 15px 12px 15px;
+    direction: rtl;
     white-space: nowrap;
     position: relative;
     border-bottom: 1px solid #e9e9e9;
@@ -7627,7 +7633,7 @@ fieldset[disabled] .form-control {
         color: #fff; }
       .sidebar .user-info .info-container .user-helper-dropdown {
         position: absolute;
-        right: -3px;
+        left: -3px;
         bottom: -12px;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
@@ -7639,9 +7645,12 @@ fieldset[disabled] .form-control {
     position: relative;
     overflow-y: auto;
     height: 90vh; }
+
+    
     .sidebar .menu .list {
       list-style: none;
-      padding-left: 0; }
+      padding-right: 0;
+      direction: rtl; }
       .sidebar .menu .list li.active > :first-child span {
         font-weight: bold; }
       .sidebar .menu .list .header {
@@ -7654,7 +7663,7 @@ fieldset[disabled] .form-control {
       .sidebar .menu .list .menu-toggle:after, .sidebar .menu .list .menu-toggle:before {
         position: absolute;
         top: calc(50% - 14px);
-        right: 17px;
+        left: 17px;
         font-size: 19px;
         -moz-transform: scale(0);
         -ms-transform: scale(0);
@@ -7705,7 +7714,7 @@ fieldset[disabled] .form-control {
           top: calc(50% - 7.5px);
           right: 15px; }
         .sidebar .menu .list a span {
-          margin: 7px 0 7px 12px;
+          margin: 7px 15px 7px 0px;
           color: #333;
           font-weight: bold;
           font-size: 14px;
@@ -7742,7 +7751,7 @@ fieldset[disabled] .form-control {
   width: 280px;
   height: calc(100vh - 70px);
   position: fixed;
-  right: -300px;
+  left: -300px;
   top: 70px;
   background: #fdfdfd;
   z-index: 11 !important;
@@ -7756,7 +7765,7 @@ fieldset[disabled] .form-control {
   -webkit-transition: 0.5s;
   transition: 0.5s; }
   .right-sidebar.open {
-    right: 0; }
+    left: 0; }
   .right-sidebar .nav-tabs {
     font-weight: 600;
     font-size: 13px;

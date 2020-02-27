@@ -26,6 +26,7 @@ class PagedTenantsRequestDto extends PagedRequestDto {
         `
           mat-form-field {
             padding: 10px;
+            text-align: right;
           }
         `
       ]
