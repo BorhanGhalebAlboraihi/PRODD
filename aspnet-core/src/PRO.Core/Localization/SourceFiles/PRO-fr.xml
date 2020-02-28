@@ -2,7 +2,7 @@
 <localizationDictionary culture="fr">
   <texts>
     <text name="HomePage" value="الصفحة الرئيسية" />
-    <text name="BasicData" value="البيانات الرئيسية" />
+    <text name="Stores" value=" المخازن" />
     <text name="About" value="من نحن " />
     <text name="WelcomeMessage" value="PRO مرحباً بك في " />
     <text name="FormIsNotValidMessage" value="البيانات غير صالحة. الرجاء التحقق وإصلاح الخطأ." />

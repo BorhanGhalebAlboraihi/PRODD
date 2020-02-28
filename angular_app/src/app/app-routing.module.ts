@@ -9,6 +9,12 @@ import { TenantsComponent } from './tenants/tenants.component';
 import { RolesComponent } from 'app/roles/roles.component';
 import { ChangePasswordComponent } from './users/change-password/change-password.component';
 
+
+
+
+
+
+
 @NgModule({
     imports: [
         RouterModule.forChild([

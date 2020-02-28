@@ -15,11 +15,41 @@ export class SideBarNavComponent extends AppComponentBase {
         new MenuItem(this.l('Tenants'), 'Pages.Tenants', 'business', '/app/tenants'),
         new MenuItem(this.l('Users'), 'Pages.Users', 'people', '/app/users'),
         new MenuItem(this.l('Roles'), 'Pages.Roles', 'local_offer', '/app/roles'),
-        new MenuItem(this.l('BasicData'), '', 'business', '', [
-            new MenuItem('Home', '', '', 'https://aspnetboilerplate.com/?ref=abptmpl'),
-            new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-            new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-            new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+        new MenuItem(this.l('Stores'), '', 'business', '', [
+            new MenuItem(this.l('تهيئة النظام'), '', '', '', [
+                new MenuItem(this.l('المتغيرات'), '', '', ''),
+                new MenuItem('أنواع الأصناف', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('عملة المخزون', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('عملة التسعيرة', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem(this.l('وحدات القياس'), '', '', ''),
+                new MenuItem(' تغيير رموز المقاسات', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('عملة المخزون', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('عملة التسعيرة', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+                     ]),
+            new MenuItem(this.l('المدخلات الأساسية'), '', '', '', [
+                new MenuItem(this.l('skjfks'), '', '', ''),
+                new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
+            new MenuItem(this.l('العمليات'), '', '', '', [
+                new MenuItem(this.l('skjfks'), '', '', ''),
+                new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
+            new MenuItem(this.l(' الجرد'), '', '', '', [
+                new MenuItem(this.l('skjfks'), '', '', ''),
+                new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
+            new MenuItem(this.l(' التقارير'), '', '', '', [
+                new MenuItem(this.l('skjfks'), '', '', ''),
+                new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
         ]),
 
             new MenuItem(this.l('About'), '', 'info', '/app/about'),

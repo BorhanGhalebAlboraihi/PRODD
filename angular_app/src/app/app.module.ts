@@ -39,6 +39,8 @@ import { ChangePasswordComponent } from './users/change-password/change-password
 import { ResetPasswordDialogComponent } from './users/reset-password/reset-password.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,7 +65,7 @@ import { ResetPasswordDialogComponent } from './users/reset-password/reset-passw
     CreateUserDialogComponent,
     EditUserDialogComponent,
     ChangePasswordComponent,
-    ResetPasswordDialogComponent,
+    ResetPasswordDialogComponent
       ],
   imports: [
     CommonModule,
