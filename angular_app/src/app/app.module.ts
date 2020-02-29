@@ -37,6 +37,15 @@ import { CreateUserDialogComponent } from '@app/users/create-user/create-user-di
 import { EditUserDialogComponent } from '@app/users/edit-user/edit-user-dialog.component';
 import { ChangePasswordComponent } from './users/change-password/change-password.component';
 import { ResetPasswordDialogComponent } from './users/reset-password/reset-password.component';
+import { variable } from '@angular/compiler/src/output/output_ast';
+import { SysVariablesComponent } from './stores/init_system/variables/sys-variables/sys-variables.component';
+import { CatacorytypeComponent } from './stores/init_system/catacories_type/catacorytype/catacorytype.component';
+import { InventoryCoinComponent } from './stores/init_system/inventory_coin/inventory-coin/inventory-coin.component';
+import { CurrencyCoinComponent } from './stores/init_system/currency/currency-coin/currency-coin.component';
+import { SupplyOrdersComponent } from './stores/init_system/supply-orders/supply-orders/supply-orders.component';
+import { ExchangeOrdersComponent } from './stores/init_system/exchange-orders/exchange-orders/exchange-orders.component';
+import { ConversionOrdersComponent } from './stores/init_system/conversion-orders/conversion-orders/conversion-orders.component';
+import { MeasurementUnitsComponent } from './stores/init_system/measurement_units/measurement-units/measurement-units.component';
 
 
 
@@ -65,7 +74,15 @@ import { ResetPasswordDialogComponent } from './users/reset-password/reset-passw
     CreateUserDialogComponent,
     EditUserDialogComponent,
     ChangePasswordComponent,
-    ResetPasswordDialogComponent
+    ResetPasswordDialogComponent,
+    SysVariablesComponent,
+    CatacorytypeComponent,
+    InventoryCoinComponent,
+    CurrencyCoinComponent,
+    SupplyOrdersComponent,
+    ExchangeOrdersComponent,
+    ConversionOrdersComponent,
+    MeasurementUnitsComponent
       ],
   imports: [
     CommonModule,

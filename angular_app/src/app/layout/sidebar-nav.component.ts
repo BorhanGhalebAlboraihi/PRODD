@@ -17,14 +17,14 @@ export class SideBarNavComponent extends AppComponentBase {
         new MenuItem(this.l('Roles'), 'Pages.Roles', 'local_offer', '/app/roles'),
         new MenuItem(this.l('Stores'), '', 'business', '', [
             new MenuItem(this.l('تهيئة النظام'), '', '', '', [
-                new MenuItem(this.l('المتغيرات'), '', '', ''),
-                new MenuItem('أنواع الأصناف', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('عملة المخزون', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('عملة التسعيرة', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem(this.l('وحدات القياس'), '', '', ''),
-                new MenuItem(' تغيير رموز المقاسات', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('عملة المخزون', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('عملة التسعيرة', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+                new MenuItem(this.l('المتغيرات'), '', '', '/app/sys-variables'),
+                new MenuItem('أنواع الأصناف', '', '', '/app/catacorytype'),
+                new MenuItem('عملة المخزون', '', '', '/app/inventory-coin'),
+                new MenuItem('عملة التسعيرة', '', '', '/app/currency-coin'),
+                new MenuItem('أنواع أوامر التوريد', '', '', '/app/supply-orders'),
+                new MenuItem(' أنواع أوامر الصرف', '', '', '/app/exchange-orders'),
+                new MenuItem(' أنواع أوامرالتحويل', '', '', '/app/conversion-orders'),
+                new MenuItem(this.l('الوحدات المخزنية'), '', '', '/app/measurement-units')
                      ]),
             new MenuItem(this.l('المدخلات الأساسية'), '', '', '', [
                 new MenuItem(this.l('skjfks'), '', '', ''),
