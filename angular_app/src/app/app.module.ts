@@ -46,6 +46,13 @@ import { SupplyOrdersComponent } from './stores/init_system/supply-orders/supply
 import { ExchangeOrdersComponent } from './stores/init_system/exchange-orders/exchange-orders/exchange-orders.component';
 import { ConversionOrdersComponent } from './stores/init_system/conversion-orders/conversion-orders/conversion-orders.component';
 import { MeasurementUnitsComponent } from './stores/init_system/measurement_units/measurement-units/measurement-units.component';
+import { GroupsDataComponent } from './stores/basic_inputs/group-data/groups-data/groups-data.component';
+import { CatagoresDataComponent } from './stores/basic_inputs/catagores-data/catagores-data/catagores-data.component';
+import { StoresDataComponent } from './stores/basic_inputs/stores-data/stores-data/stores-data.component';
+import { ScientificCataComponent } from './stores/basic_inputs/catagores-data/scientific-catagores/scientific-cata/scientific-cata.component';
+import { AlternativeCataComponent } from './stores/basic_inputs/catagores-data/alternative-catagores/alternative-cata/alternative-cata.component';
+import { DataSheetsComponent } from './stores/basic_inputs/data-sheets/data-sheets/data-sheets.component';
+import { OpeningInventoryComponent } from './stores/basic_inputs/catagores-store/opening-inventory/opening-inventory.component';
 
 
 
@@ -82,7 +89,14 @@ import { MeasurementUnitsComponent } from './stores/init_system/measurement_unit
     SupplyOrdersComponent,
     ExchangeOrdersComponent,
     ConversionOrdersComponent,
-    MeasurementUnitsComponent
+    MeasurementUnitsComponent,
+    GroupsDataComponent,
+    CatagoresDataComponent,
+    StoresDataComponent,
+    ScientificCataComponent,
+    AlternativeCataComponent,
+    DataSheetsComponent,
+    OpeningInventoryComponent
       ],
   imports: [
     CommonModule,

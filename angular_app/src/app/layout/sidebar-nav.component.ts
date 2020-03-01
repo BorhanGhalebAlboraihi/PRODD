@@ -27,10 +27,12 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem(this.l('الوحدات المخزنية'), '', '', '/app/measurement-units')
                      ]),
             new MenuItem(this.l('المدخلات الأساسية'), '', '', '', [
-                new MenuItem(this.l('skjfks'), '', '', ''),
-                new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+                new MenuItem(this.l('بيانات المجموعات'), '', '', '/app/groups-data'),
+                new MenuItem('بيانات الأصناف', '', '', '/app/catagores-data'),
+                new MenuItem('بيانات المخازن', '', '', '/app/stores-data'),
+                new MenuItem('الأصناف العلمــية', '', '', '/app/scientific-cata'),
+                new MenuItem('الأصناف البديلة', '', '', '/app/alternative-cata'),
+                new MenuItem('بيانات الرفوف', '', '', '/app/data-sheets')
             ]),
             new MenuItem(this.l('العمليات'), '', '', '', [
                 new MenuItem(this.l('skjfks'), '', '', ''),
