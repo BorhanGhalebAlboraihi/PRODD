@@ -32,7 +32,10 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('بيانات المخازن', '', '', '/app/stores-data'),
                 new MenuItem('الأصناف العلمــية', '', '', '/app/scientific-cata'),
                 new MenuItem('الأصناف البديلة', '', '', '/app/alternative-cata'),
-                new MenuItem('بيانات الرفوف', '', '', '/app/data-sheets')
+                new MenuItem('بيانات الرفوف', '', '', '/app/data-sheets'),
+                new MenuItem('المخزون الإفتتاحي', '', '', '/app/opening-inventory'),
+                new MenuItem(' التســـعيرة', '', '', '/app/pricing'),
+                new MenuItem(' تعديل الأســــعار', '', '', '/app/change-prices')
             ]),
             new MenuItem(this.l('العمليات'), '', '', '', [
                 new MenuItem(this.l('skjfks'), '', '', ''),

@@ -53,6 +53,8 @@ import { ScientificCataComponent } from './stores/basic_inputs/catagores-data/sc
 import { AlternativeCataComponent } from './stores/basic_inputs/catagores-data/alternative-catagores/alternative-cata/alternative-cata.component';
 import { DataSheetsComponent } from './stores/basic_inputs/data-sheets/data-sheets/data-sheets.component';
 import { OpeningInventoryComponent } from './stores/basic_inputs/catagores-store/opening-inventory/opening-inventory.component';
+import { PricingComponent } from './stores/basic_inputs/pricing/pricing/pricing.component';
+import { ChangePricesComponent } from './stores/basic_inputs/change-prices/change-prices/change-prices.component';
 
 
 
@@ -96,7 +98,9 @@ import { OpeningInventoryComponent } from './stores/basic_inputs/catagores-store
     ScientificCataComponent,
     AlternativeCataComponent,
     DataSheetsComponent,
-    OpeningInventoryComponent
+    OpeningInventoryComponent,
+    PricingComponent,
+    ChangePricesComponent
       ],
   imports: [
     CommonModule,
