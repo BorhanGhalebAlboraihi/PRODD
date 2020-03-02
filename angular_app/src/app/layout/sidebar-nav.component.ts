@@ -54,10 +54,10 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('تقرير زائد وناقص الجرد', '', '', '/app/jaard-reports')
             ]),
             new MenuItem(this.l(' التقارير'), '', '', '', [
-                new MenuItem(this.l('skjfks'), '', '', ''),
-                new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+                new MenuItem(this.l('تقرير المخزون'), '', '', '/app/stores-reports'),
+                new MenuItem(this.l('حركة المخزون'), '', '', '/app/inventory-movement'),
+                new MenuItem(this.l(' معدل الدوران'), '', '', '/app/rotation-rate'),
+                new MenuItem(this.l(' تقارير التوريد المخزني'), '', '', '/app/supply-reports')
             ]),
         ]),
 

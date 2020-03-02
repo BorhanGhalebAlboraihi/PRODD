@@ -1,7 +1,7 @@
 <mat-card dir="rtl">
     <mat-card-header>
         <div mat-card-avatar>avatar</div>
-         <mat-card-title>  تقـــرير   المخـــزون</mat-card-title>
+         <mat-card-title>  حركـــة المخـــزون</mat-card-title>
         <mat-card-subtitle> التقارير</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
@@ -12,21 +12,35 @@
                     <div class="row">
                           
                 
-                      <div class="col-sm-12">
+                      <div class="col-sm-6">
                        
                             <mat-card>
-                              <mat-select placeholder="ترتيب التقرير">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
+                                <mat-form-field appearance="fill">
+                                    <mat-label>  من تاريـــخ</mat-label>
+                                    <input type="date" matInput placeholder="Placeholder">
+                                    
+                                    
+                                  </mat-form-field>
                             </mat-card>
       
-      
-                           
-              
-                           
-      
                       </div>
-      
+                      <div class="col-sm-6">
+                       
+                        <mat-card>
+                            <mat-form-field appearance="fill">
+                                <mat-label>  الـــى تــاريخ</mat-label>
+                                <input type="date" matInput placeholder="Placeholder">
+                                
+                                
+                              </mat-form-field>
+                        </mat-card>
+  
+  
+                       
+          
+                       
+  
+                  </div>
                       
       
                   </div>
@@ -111,25 +125,7 @@
                       </div>
                   </div>
       
-                  <div class="row">
-                      <div class="col-sm-6">
-                         
-                          <mat-card>
-                              <mat-select placeholder=" النـــوع">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
-                          </mat-card>
-      
-                      </div>
-                      <div class="col-sm-6">
-                          <mat-card>
-                              <mat-select placeholder="الوحــدة">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
-                          </mat-card>
-      
-                      </div>
-                  </div>
+                  
       
                   <div class="row">
                       <div class="col-sm-6">
@@ -150,23 +146,20 @@
       
                       </div>
                   </div>
-      
-      
                   <div class="row">
-                      <div class="col-sm-12">
-                         
-                          <mat-card>
-                              <mat-radio-group>
-                                  <mat-radio-button value="val"> تجميع حسب الأصناف للكميات فقط</mat-radio-button>
-                                 </mat-radio-group>
-                          </mat-card>
+                    <div class="col-sm-12">
+                       
+                        <mat-card>
+                            <mat-select placeholder=" نـــوع الصنف">
+                                <mat-option [value]="'val'">{{val}}</mat-option>
+                            </mat-select>
+                        </mat-card>
+    
+                    </div>
+                    
+                </div>
       
-                      </div>
-                      
-      
-                      
-                  </div>
-      
+                
                  </mat-card>
             </div>
 
@@ -189,35 +182,12 @@
                         <mat-card>
                          <mat-card-subtitle> ترتيب التقرير</mat-card-subtitle>
                             <hr>
-                            <mat-radio-group>
-                                <mat-radio-button value="حسب رقم الصنف">حسب رقم الصنف</mat-radio-button>
-                                <mat-radio-button value="حسب إسم الصنف">حسب إسم الصنف</mat-radio-button>
-                            </mat-radio-group>
+                            <mat-select placeholder="نـــوع التقــرير">
+                                <mat-option [value]="'val'">{{val}}</mat-option>
+                            </mat-select>
                         </mat-card>
                     </div>
 
-                    <div class="row">
-                        <mat-card>
-                         <mat-checkbox>المخزون الإفتتاحي فقط</mat-checkbox>   
-                         <mat-checkbox>إظهار الأصناف ذات الحركة الصفرية</mat-checkbox>
-                         <mat-checkbox> الأصناف المحجوزة فـــقط</mat-checkbox>
-                         <mat-checkbox>المخزون حــســب الجرد</mat-checkbox>
-                         <mat-checkbox>إظهار المعادل من المقاييس والأوزان</mat-checkbox>
-
-                        </mat-card>
-                    </div>
-
-                    <div class="row">
-                        <mat-card>
-                         <mat-card-subtitle>  الأجمــــالي</mat-card-subtitle>
-                            <hr>
-                        <mat-select placeholder="عـــلى حسب...">
-                            <mat-option [value]="'val'">{{val}}</mat-option>
-                        </mat-select>
-                        </mat-card>
-                    </div>
-
-                    
                 </mat-card>
             </div>
         </div>
@@ -226,9 +196,7 @@
             <mat-card>
                 <mat-card-actions>
                     <button mat-raised-button color="warn">طبــــاعة</button>
-                    <button mat-raised-button color="warn">تقـــرير بياني</button>
-                     
-                    </mat-card-actions>
+                   </mat-card-actions>
             </mat-card>
     </mat-card-content>
     

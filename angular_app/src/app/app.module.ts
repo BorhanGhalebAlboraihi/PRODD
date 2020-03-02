@@ -67,6 +67,9 @@ import { JaardListsComponent } from './stores/jaard/jaard-lists/jaard-lists/jaar
 import { JaardManuallyComponent } from './stores/jaard/jaard-input-manually/jaard-manually/jaard-manually.component';
 import { JaardReportsComponent } from './stores/jaard/jaard-reports/jaard-reports/jaard-reports.component';
 import { StoresReportsComponent } from './stores/reports/stores-reports/stores-reports/stores-reports.component';
+import { InventoryMovementComponent } from './stores/reports/inventory-movement/inventory-movement/inventory-movement.component';
+import { RotationRateComponent } from './stores/reports/rotation-rate/rotation-rate/rotation-rate.component';
+import { SupplyReportsComponent } from './stores/reports/supply-reports/supply-reports/supply-reports.component';
 
 
 
@@ -124,7 +127,10 @@ import { StoresReportsComponent } from './stores/reports/stores-reports/stores-r
     JaardListsComponent,
     JaardManuallyComponent,
     JaardReportsComponent,
-    StoresReportsComponent
+    StoresReportsComponent,
+    InventoryMovementComponent,
+    RotationRateComponent,
+    SupplyReportsComponent
       ],
   imports: [
     CommonModule,

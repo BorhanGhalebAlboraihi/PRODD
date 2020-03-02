@@ -36,6 +36,10 @@ import { StocksSettlementComponent } from './stores/operations/stock-settlement/
 import { JaardListsComponent } from './stores/jaard/jaard-lists/jaard-lists/jaard-lists.component';
 import { JaardManuallyComponent } from './stores/jaard/jaard-input-manually/jaard-manually/jaard-manually.component';
 import { JaardReportsComponent } from './stores/jaard/jaard-reports/jaard-reports/jaard-reports.component';
+import { StoresReportsComponent } from './stores/reports/stores-reports/stores-reports/stores-reports.component';
+import { InventoryMovementComponent } from './stores/reports/inventory-movement/inventory-movement/inventory-movement.component';
+import { RotationRateComponent } from './stores/reports/rotation-rate/rotation-rate/rotation-rate.component';
+import { SupplyReportsComponent } from './stores/reports/supply-reports/supply-reports/supply-reports.component';
 
 
 
@@ -82,6 +86,10 @@ import { JaardReportsComponent } from './stores/jaard/jaard-reports/jaard-report
                     { path: 'jaard-lists', component: JaardListsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'jaard-manually', component: JaardManuallyComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'jaard-reports', component: JaardReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'stores-reports', component: StoresReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'inventory-movement', component: InventoryMovementComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'rotation-rate', component: RotationRateComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'supply-reports', component: SupplyReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'about', component: AboutComponent },
                     { path: 'update-password', component: ChangePasswordComponent }
                 ]
