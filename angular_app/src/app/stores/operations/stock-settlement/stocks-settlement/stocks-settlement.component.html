@@ -1,155 +1,270 @@
 <mat-card dir="rtl">
     <mat-card-header>
         <div mat-card-avatar>avatar</div>
-        <mat-card-title> مــردود أمر توريد</mat-card-title>
+        <mat-card-title>   تسوية المخـــزون</mat-card-title>
         <mat-card-subtitle> العملـــيات</mat-card-subtitle>
     </mat-card-header>
 
     <mat-card >
 
        
-        <div class="row">
-            <div class="col-sm-12">
-                <mat-card>
-                    <mat-form-field appearance="fill">
-                        <mat-label>    التـــاريخ</mat-label>
-                        <input type="date" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-            </div>
-        </div>
-          
-        
+       <div class="row">
+           <div class="col-sm-6">
+           <mat-card>
+            <div class="row">
+                <div class="col-sm-6">
+                    <mat-card>
+                        <mat-form-field appearance="fill">
+                            <mat-label>    تاريخ الوثيقة</mat-label>
+                            <input type="date" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                    </mat-card>
+                </div>
 
-        <div class="row">
-            <div class="col-sm-4">
-               
-                <mat-card>
-                    <mat-form-field appearance="fill">
-                        <mat-label>   رقم مــردود التوريد</mat-label>
-                        <input type="number" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-            <div class="col-sm-4">
-               
-                <mat-card>
-            
-                    <mat-form-field appearance="fill">
-                        <mat-label>    رقــم الأمر</mat-label>
-                        <input type="number" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-
-            <div class="col-sm-4">
-               
-                <mat-card>
-            
-                    <mat-form-field appearance="fill">
-                        <mat-label>    رقــم المورد</mat-label>
-                        <input type="number" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6">
-               
-                <mat-card>
+                <div class="col-sm-6">
                    
-                    <mat-form-field appearance="fill">
-                        <mat-label>       رقم الحساب</mat-label>
-                        <input type="number" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
+                    <mat-card>
+                        <mat-select placeholder="نوع التسوية">
+                            <mat-option [value]="'val'">{{val}}</mat-option>
+                        </mat-select>
+                    </mat-card>
+    
+                </div>
             </div>
-            <div class="col-sm-6">
-               
-                <mat-card>
+              
             
-                    <mat-form-field appearance="fill">
-                        <mat-label>   إســـم الحساب </mat-label>
-                        <input type="input" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm-6">
+    
+            <div class="row">
                
-                <mat-card>
+                <div class="col-sm-6">
                    
-                    <mat-form-field appearance="fill">
-                        <mat-label>       رقم المخزن</mat-label>
-                        <input type="number" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-            <div class="col-sm-6">
-               
-                <mat-card>
-            
-                    <mat-form-field appearance="fill">
-                        <mat-label>   إســـم المخزن </mat-label>
-                        <input type="input" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-        </div>
-
-    <div class="row">
-        <div class="col-sm-6">
-            <mat-card>
-               
-                <mat-select placeholder="مركز التكلفة">
-                    <mat-option [value]="'val'">{{val}}</mat-option>
-                </mat-select>
-            </mat-card>
-
-            
-
-        </div>
-        <div class="col-sm-6">
-            <mat-card>
-                <mat-form-field appearance="fill">
-                    <mat-label> الإسم</mat-label>
-                    <input type="input" matInput placeholder="Placeholder">
-                    
-                  </mat-form-field>
+                    <mat-card>
                 
+                        <mat-form-field appearance="fill">
+                            <mat-label>    رقــم الوثيقة</mat-label>
+                            <input type="number" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                    </mat-card>
+    
+                </div>
+    
+                <div class="col-sm-6">
+                   
+                    <mat-card>
+                        <mat-select placeholder="طريقة عرض البيانات ">
+                            <mat-option [value]="'val'">{{val}}</mat-option>
+                        </mat-select>
+                    </mat-card>
+    
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-sm-6">
+                   
+                    <mat-card>
+                       
+                        <mat-form-field appearance="fill">
+                            <mat-label>       رقم المرجع</mat-label>
+                            <input type="number" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                    </mat-card>
+    
+                </div>
+                <div class="col-sm-6">
+                   
+                    <mat-card>
+                
+                        <mat-form-field appearance="fill">
+                            <mat-label>    البيان </mat-label>
+                            <input type="input" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                    </mat-card>
+    
+                </div>
+            </div>
+    
+    
+            <div class="row">
+                <div class="col-sm-6">
+                   
+                    <mat-card>
+                       
+                        <mat-form-field appearance="fill">
+                            <mat-label>       رقم الحساب</mat-label>
+                            <input type="number" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                    </mat-card>
+    
+                </div>
+                <div class="col-sm-6">
+                   
+                    <mat-card>
+                
+                        <mat-form-field appearance="fill">
+                            <mat-label>   إســـم الحساب </mat-label>
+                            <input type="input" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                    </mat-card>
+    
+                </div>
+            </div>
+    
+        <div class="row">
+            <div class="col-sm-6">
+                <mat-card>
+                   
+                    <mat-select placeholder=" رقم المركز">
+                        <mat-option [value]="'val'">{{val}}</mat-option>
+                    </mat-select>
+                </mat-card>
+    
+                
+    
+            </div>
+            <div class="col-sm-6">
+                
+    
+                
+    
+            </div>
+    
+                
+            </div>
+           </mat-card>
+           </div>
+           <div class="col-sm-6">
+            <mat-card>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <mat-card>
+                            <mat-form-field appearance="fill">
+                                <mat-label>    من المجموعة</mat-label>
+                                <input type="number" matInput placeholder="Placeholder">
+                                
+                              </mat-form-field>
+                        </mat-card>
+                    </div>
+    
+                    <div class="col-sm-6">
+                       
+                        <mat-card>
+                            <mat-form-field appearance="fill">
+                                <mat-label>     الى</mat-label>
+                                <input type="number" matInput placeholder="Placeholder">
+                                
+                              </mat-form-field>
+                        </mat-card>
+        
+                    </div>
+                </div>
+                  
+                
+        
+                <div class="row">
+                    <div class="col-sm-6">
+                        <mat-card>
+                            <mat-form-field appearance="fill">
+                                <mat-label>    من الصنف</mat-label>
+                                <input type="number" matInput placeholder="Placeholder">
+                                
+                              </mat-form-field>
+                        </mat-card>
+                    </div>
+    
+                    <div class="col-sm-6">
+                       
+                        <mat-card>
+                            <mat-form-field appearance="fill">
+                                <mat-label>     الى</mat-label>
+                                <input type="number" matInput placeholder="Placeholder">
+                                
+                              </mat-form-field>
+                        </mat-card>
+        
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-sm-12">
+                       
+                        <mat-card>
+                           
+                            <mat-form-field appearance="fill">
+                                <mat-label>        إســـم الصنف</mat-label>
+                                <input type="input" matInput placeholder="Placeholder">
+                                
+                              </mat-form-field>
+                        </mat-card>
+        
+                    </div>
+                    
+                </div>
+        
+        
+                <div class="row">
+                    <div class="col-sm-6">
+                       
+                        <mat-card>
+                           
+                            <mat-select placeholder="من المخزن">
+                                <mat-option [value]="'val'">{{val}}</mat-option>
+                            </mat-select>
+                        </mat-card>
+        
+                    </div>
+                    <div class="col-sm-6">
+                       
+                        <mat-card>
+                           
+                            <mat-select placeholder="الــى ">
+                                <mat-option [value]="'val'">{{val}}</mat-option>
+                            </mat-select>
+                        </mat-card>
+        
+                    </div>
+                </div>
+        
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-card>
+                       <mat-checkbox >إنزال الكميات من الجــرد</mat-checkbox>
+                        
+                    </mat-card>
+        
+                    
+        
+                </div>
+                
+        
+                    
+                </div>
             </mat-card>
-
-            
-
-        </div>
-
-            
-        </div>
+           </div>
+       </div>
 
        
 
         <div class="row">
             
-            <div class="col-sm-12">
+            <div class="col-sm-4">
+                <mat-checkbox >يتم توزيع هذة النسبة على كافة الأصناف المعروضة</mat-checkbox>
+                
+            </div>
+            <div class="col-sm-4">
+                <mat-form-field appearance="fill">
+                    <mat-label>        النسبة</mat-label>
+                    <input type="input" matInput placeholder="Placeholder">
+                    
+                  </mat-form-field>
+            </div>
+            <div class="col-sm-4">
                 <button mat-raised-button color="primary" style="width: 100%; margin-top: 10px;"
                 >إنزال البـــيانات
         </button>
@@ -230,47 +345,6 @@
      
        </mat-card>
  
-       <mat-card  style="margin-top: 50px;">
-        <div class="row" >
-            <div class="col-sm-4">
-               
-                <mat-card>
-                   
-                    <mat-form-field appearance="fill">
-                        <mat-label>  الإجمـــالي</mat-label>
-                        <input type="number" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-
-            <div class="col-sm-4">
-               
-                <mat-card>
-            
-                    <mat-form-field appearance="fill">
-                        <mat-label>    رقم المرجع </mat-label>
-                        <input type="number" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-
-            <div class="col-sm-4">
-               
-                <mat-card>
-            
-                    <mat-form-field appearance="fill">
-                        <mat-label>    البيان </mat-label>
-                        <input type="input" matInput placeholder="Placeholder">
-                        
-                      </mat-form-field>
-                </mat-card>
-
-            </div>
-        </div>
-       </mat-card>
+      
        
  </mat-card>

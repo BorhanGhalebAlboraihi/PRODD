@@ -63,6 +63,10 @@ import { RefundorSupplyComponent } from './stores/operations/refundor-supply/ref
 import { StocksComponent } from './stores/operations/stocks/stocks/stocks.component';
 import { DamagedCatagoresComponent } from './stores/operations/damaged-catagores/damaged-catagores/damaged-catagores.component';
 import { StocksSettlementComponent } from './stores/operations/stock-settlement/stocks-settlement/stocks-settlement.component';
+import { JaardListsComponent } from './stores/jaard/jaard-lists/jaard-lists/jaard-lists.component';
+import { JaardManuallyComponent } from './stores/jaard/jaard-input-manually/jaard-manually/jaard-manually.component';
+import { JaardReportsComponent } from './stores/jaard/jaard-reports/jaard-reports/jaard-reports.component';
+import { StoresReportsComponent } from './stores/reports/stores-reports/stores-reports/stores-reports.component';
 
 
 
@@ -116,7 +120,11 @@ import { StocksSettlementComponent } from './stores/operations/stock-settlement/
     RefundorSupplyComponent,
     StocksComponent,
     DamagedCatagoresComponent,
-    StocksSettlementComponent
+    StocksSettlementComponent,
+    JaardListsComponent,
+    JaardManuallyComponent,
+    JaardReportsComponent,
+    StoresReportsComponent
       ],
   imports: [
     CommonModule,
