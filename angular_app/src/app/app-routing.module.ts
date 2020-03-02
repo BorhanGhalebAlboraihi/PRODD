@@ -25,6 +25,14 @@ import { DataSheetsComponent } from './stores/basic_inputs/data-sheets/data-shee
 import { OpeningInventoryComponent } from './stores/basic_inputs/catagores-store/opening-inventory/opening-inventory.component';
 import { PricingComponent } from './stores/basic_inputs/pricing/pricing/pricing.component';
 import { ChangePricesComponent } from './stores/basic_inputs/change-prices/change-prices/change-prices.component';
+import { CatagoresBudgetComponent } from './stores/basic_inputs/catagores-budget/catagores-budget/catagores-budget.component';
+import { BarcodPrintComponent } from './stores/basic_inputs/barcod-print/barcod-print/barcod-print.component';
+import { SupplyStoresComponent } from './stores/operations/supply-stores/supply-stores/supply-stores.component';
+import { DisplayingStoresComponent } from './stores/operations/displaying-stores/displaying-stores/displaying-stores.component';
+import { RefundorSupplyComponent } from './stores/operations/refundor-supply/refundor-supply/refundor-supply.component';
+import { StocksComponent } from './stores/operations/stocks/stocks/stocks.component';
+import { DamagedCatagoresComponent } from './stores/operations/damaged-catagores/damaged-catagores/damaged-catagores.component';
+import { StocksSettlementComponent } from './stores/operations/stock-settlement/stocks-settlement/stocks-settlement.component';
 
 
 
@@ -60,6 +68,14 @@ import { ChangePricesComponent } from './stores/basic_inputs/change-prices/chang
                     { path: 'opening-inventory', component: OpeningInventoryComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'pricing', component: PricingComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'change-prices', component: ChangePricesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'catagores-budget', component: CatagoresBudgetComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'barcod-print', component: BarcodPrintComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'supply-stores', component: SupplyStoresComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'displaying-stores', component: DisplayingStoresComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'refundor-supply', component: RefundorSupplyComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'damaged-catagores', component: DamagedCatagoresComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'stocks-settlement', component: StocksSettlementComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'stocks', component: StocksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'about', component: AboutComponent },
                     { path: 'update-password', component: ChangePasswordComponent }
                 ]

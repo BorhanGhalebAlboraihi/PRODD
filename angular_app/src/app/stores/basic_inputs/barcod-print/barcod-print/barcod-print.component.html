@@ -1,0 +1,203 @@
+<mat-card dir="rtl">
+    <mat-card-header>
+        <div mat-card-avatar>avatar</div>
+        <mat-card-title> الأصنـــاف البديلة</mat-card-title>
+        <mat-card-subtitle>المدخـــلات الأساسية</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card >
+
+       
+
+          
+        
+
+        <div class="row">
+            <div class="col-sm-6">
+               
+                <mat-card>
+                    <mat-form-field appearance="fill">
+                        <mat-label>   من رقم الصنف</mat-label>
+                        <input type="number" matInput placeholder="Placeholder">
+                        
+                      </mat-form-field>
+                </mat-card>
+
+            </div>
+            <div class="col-sm-6">
+               
+                <mat-card>
+            
+                    <mat-form-field appearance="fill">
+                        <mat-label>   الى رقم</mat-label>
+                        <input type="number" matInput placeholder="Placeholder">
+                        
+                      </mat-form-field>
+                </mat-card>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+               
+                <mat-card>
+                   
+                    <mat-form-field appearance="fill">
+                        <mat-label>     من رقم الباركود</mat-label>
+                        <input type="number" matInput placeholder="Placeholder">
+                        
+                      </mat-form-field>
+                </mat-card>
+
+            </div>
+            <div class="col-sm-6">
+               
+                <mat-card>
+            
+                    <mat-form-field appearance="fill">
+                        <mat-label>   الى الباركود</mat-label>
+                        <input type="number" matInput placeholder="Placeholder">
+                        
+                      </mat-form-field>
+                </mat-card>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <mat-card>
+                    <mat-card-subtitle> خيارات الطباعة</mat-card-subtitle>
+                    <hr>
+                    <mat-radio-group>
+                        <mat-radio-button value="val">إختيار الكل</mat-radio-button>
+                        <mat-radio-button value="val">إختيار يدوي</mat-radio-button>
+                        <mat-radio-button value="val">إلغاء الكل</mat-radio-button>
+                    </mat-radio-group>
+                </mat-card>
+
+                
+
+            </div>
+
+            <div class="col-sm-6">
+                <mat-card>
+                    <mat-card-subtitle> عدد البيلات</mat-card-subtitle>
+                    <hr>
+                    <mat-radio-group>
+                        <mat-radio-button value="val"> بعدد الكمية</mat-radio-button>
+                        <mat-radio-button value="val">تحديد يدوي</mat-radio-button>
+                    </mat-radio-group>
+                </mat-card>
+                
+            </div>
+        </div>
+
+    <div class="row">
+        <mat-card  style="margin: 10px;">
+            <mat-card-subtitle>   إنزال الأصنـــاف من </mat-card-subtitle>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <mat-card>
+                        <mat-select placeholder=" من">
+                            <mat-option [value]="'val'">{{val}}</mat-option>
+                        </mat-select>
+                    </mat-card>
+                    
+                </div>
+                <div class="col-sm-6">
+                    <mat-card>
+                        <mat-select placeholder="رقم المستند">
+                            <mat-option [value]="'val'">{{val}}</mat-option>
+                        </mat-select>
+                    </mat-card>
+                    
+                </div>
+            </div>
+        </mat-card>
+
+
+            
+        </div>
+
+        <div class="row">
+            
+            <div class="col-sm-12">
+                <button mat-raised-button color="primary" style="width: 100%; margin-top: 10px;"
+                >إنزال البـــيانات
+        </button>
+                
+            </div>
+        </div>
+
+        
+
+       </mat-card>
+    
+    
+ 
+    
+ 
+    <mat-card>
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+            <!-- Checkbox Column -->
+            <ng-container matColumnDef="select">
+              <th mat-header-cell *matHeaderCellDef>
+                <mat-checkbox (change)="$event ? masterToggle() : null"
+                              [checked]="selection.hasValue() && isAllSelected()"
+                              [indeterminate]="selection.hasValue() && !isAllSelected()"
+                              [aria-label]="checkboxLabel()">
+                </mat-checkbox>
+              </th>
+              <td mat-cell *matCellDef="let row">
+                <mat-checkbox (click)="$event.stopPropagation()"
+                              (change)="$event ? selection.toggle(row) : null"
+                              [checked]="selection.isSelected(row)"
+                              [aria-label]="checkboxLabel(row)">
+                </mat-checkbox>
+              </td>
+            </ng-container>
+          
+            <!-- Position Column -->
+            <ng-container matColumnDef="position">
+              <th mat-header-cell *matHeaderCellDef> No. </th>
+              <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+            </ng-container>
+          
+            <!-- Name Column -->
+            <ng-container matColumnDef="name">
+              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+          
+            <!-- Weight Column -->
+            <ng-container matColumnDef="weight">
+              <th mat-header-cell *matHeaderCellDef> Weight </th>
+              <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+            </ng-container>
+          
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="symbol">
+              <th mat-header-cell *matHeaderCellDef> Symbol </th>
+              <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+            </ng-container>
+          
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"
+                (click)="selection.toggle(row)">
+            </tr>
+          </table>
+          
+     
+     <button style="margin: 3px;" mat-mini-fab color="primary" class="pull-left" (click)="createRole()">
+         <mat-icon>add</mat-icon>
+     </button>
+     
+       </mat-card>
+ 
+  
+ </mat-card>

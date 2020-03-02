@@ -55,6 +55,14 @@ import { DataSheetsComponent } from './stores/basic_inputs/data-sheets/data-shee
 import { OpeningInventoryComponent } from './stores/basic_inputs/catagores-store/opening-inventory/opening-inventory.component';
 import { PricingComponent } from './stores/basic_inputs/pricing/pricing/pricing.component';
 import { ChangePricesComponent } from './stores/basic_inputs/change-prices/change-prices/change-prices.component';
+import { CatagoresBudgetComponent } from './stores/basic_inputs/catagores-budget/catagores-budget/catagores-budget.component';
+import { BarcodPrintComponent } from './stores/basic_inputs/barcod-print/barcod-print/barcod-print.component';
+import { SupplyStoresComponent } from './stores/operations/supply-stores/supply-stores/supply-stores.component';
+import { DisplayingStoresComponent } from './stores/operations/displaying-stores/displaying-stores/displaying-stores.component';
+import { RefundorSupplyComponent } from './stores/operations/refundor-supply/refundor-supply/refundor-supply.component';
+import { StocksComponent } from './stores/operations/stocks/stocks/stocks.component';
+import { DamagedCatagoresComponent } from './stores/operations/damaged-catagores/damaged-catagores/damaged-catagores.component';
+import { StocksSettlementComponent } from './stores/operations/stock-settlement/stocks-settlement/stocks-settlement.component';
 
 
 
@@ -100,7 +108,15 @@ import { ChangePricesComponent } from './stores/basic_inputs/change-prices/chang
     DataSheetsComponent,
     OpeningInventoryComponent,
     PricingComponent,
-    ChangePricesComponent
+    ChangePricesComponent,
+    CatagoresBudgetComponent,
+    BarcodPrintComponent,
+    SupplyStoresComponent,
+    DisplayingStoresComponent,
+    RefundorSupplyComponent,
+    StocksComponent,
+    DamagedCatagoresComponent,
+    StocksSettlementComponent
       ],
   imports: [
     CommonModule,

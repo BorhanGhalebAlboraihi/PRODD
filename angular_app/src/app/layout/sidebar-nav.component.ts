@@ -35,13 +35,17 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('بيانات الرفوف', '', '', '/app/data-sheets'),
                 new MenuItem('المخزون الإفتتاحي', '', '', '/app/opening-inventory'),
                 new MenuItem(' التســـعيرة', '', '', '/app/pricing'),
-                new MenuItem(' تعديل الأســــعار', '', '', '/app/change-prices')
+                new MenuItem(' تعديل الأســــعار', '', '', '/app/change-prices'),
+                new MenuItem('  الموازنة التقديرية للأصناف', '', '', '/app/catagores-budget'),
+                new MenuItem('  طبــاعة بيانات الباركود  ', '', '', '/app/barcod-print')
             ]),
             new MenuItem(this.l('العمليات'), '', '', '', [
-                new MenuItem(this.l('skjfks'), '', '', ''),
-                new MenuItem('Templates', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('Samples', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('Documents', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+                new MenuItem(this.l('أمر توريد مخزني'), '', '', '/app/supply-stores'),
+                new MenuItem(this.l('أمر صرف مخزني'), '', '', '/app/displaying-stores'),
+                new MenuItem(this.l(' مــردود أمر توريد '), '', '', '/app/refundor-supply'),
+                new MenuItem(this.l(' التحويل المخزني'), '', '', '/app/stocks'),
+                new MenuItem(this.l('  الأصناف التالفة'), '', '', '/app/damaged-catagores'),
+                new MenuItem(this.l('تـــسوية المخزون'), '', '', '/app/stocks-settlement')
             ]),
             new MenuItem(this.l(' الجرد'), '', '', '', [
                 new MenuItem(this.l('skjfks'), '', '', ''),
