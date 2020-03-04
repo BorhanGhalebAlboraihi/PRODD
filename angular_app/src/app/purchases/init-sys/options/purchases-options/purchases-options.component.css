@@ -1,0 +1,13 @@
+mat-radio-button{
+    
+    display: block;
+
+}
+
+mat-checkbox{
+    display: block;
+}
+
+mat-card{
+    margin-bottom: 10px;
+}

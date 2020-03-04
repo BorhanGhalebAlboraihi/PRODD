@@ -40,6 +40,17 @@ import { StoresReportsComponent } from './stores/reports/stores-reports/stores-r
 import { InventoryMovementComponent } from './stores/reports/inventory-movement/inventory-movement/inventory-movement.component';
 import { RotationRateComponent } from './stores/reports/rotation-rate/rotation-rate/rotation-rate.component';
 import { SupplyReportsComponent } from './stores/reports/supply-reports/supply-reports/supply-reports.component';
+import { PurchasesOptionsComponent } from './purchases/init-sys/options/purchases-options/purchases-options.component';
+import { DataSuppliersComponent } from './purchases/basic-input/data-suppliers/data-suppliers/data-suppliers.component';
+import { SupplyDataComponent } from './purchases/basic-input/supply-data/supply-data/supply-data.component';
+import { BuyingBillsComponent } from './purchases/operations/buying-bills/buying-bills/buying-bills.component';
+import { BuyingOrdersComponent } from './purchases/operations/buying-orders/buying-orders/buying-orders.component';
+import { BuyingRequestsComponent } from './purchases/operations/buying-requests/buying-requests/buying-requests.component';
+import { CostExternalBuyersComponent } from './purchases/operations/cost-external-buyers/cost-external-buyers/cost-external-buyers.component';
+import { CostLocalBuyersComponent } from './purchases/operations/cost-local-buyers/cost-local-buyers/cost-local-buyers.component';
+import { InstantBuyingBillsComponent } from './purchases/operations/instant-buying-bills/instant-buying-bills/instant-buying-bills.component';
+import { OrderSupplyComponent } from './purchases/operations/order-supply/order-supply/order-supply.component';
+import { PaymentBillsPurchasedComponent } from './purchases/operations/payment-bills-purchased/payment-bills-purchased/payment-bills-purchased.component';
 
 
 
@@ -90,6 +101,17 @@ import { SupplyReportsComponent } from './stores/reports/supply-reports/supply-r
                     { path: 'inventory-movement', component: InventoryMovementComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'rotation-rate', component: RotationRateComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'supply-reports', component: SupplyReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'purchases-options', component: PurchasesOptionsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'data-suppliers', component: DataSuppliersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                   
+                    { path: 'buying-bills', component: BuyingBillsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'buying-orders', component: BuyingOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'buying-requests', component: BuyingRequestsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'cost-external-buyers', component: CostExternalBuyersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'cost-local-buyers', component: CostLocalBuyersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'instant-buying-bills', component: InstantBuyingBillsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'order-supply', component: OrderSupplyComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'payment-bills-purchased', component: PaymentBillsPurchasedComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'about', component: AboutComponent },
                     { path: 'update-password', component: ChangePasswordComponent }
                 ]

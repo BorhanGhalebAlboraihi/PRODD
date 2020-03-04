@@ -70,6 +70,18 @@ import { StoresReportsComponent } from './stores/reports/stores-reports/stores-r
 import { InventoryMovementComponent } from './stores/reports/inventory-movement/inventory-movement/inventory-movement.component';
 import { RotationRateComponent } from './stores/reports/rotation-rate/rotation-rate/rotation-rate.component';
 import { SupplyReportsComponent } from './stores/reports/supply-reports/supply-reports/supply-reports.component';
+import { PurchasesOptionsComponent } from './purchases/init-sys/options/purchases-options/purchases-options.component';
+import { DataSuppliersComponent } from './purchases/basic-input/data-suppliers/data-suppliers/data-suppliers.component';
+import { SupplyDataComponent } from './purchases/basic-input/supply-data/supply-data/supply-data.component';
+import { BuyingRequestsComponent } from './purchases/operations/buying-requests/buying-requests/buying-requests.component';
+import { BuyingOrdersComponent } from './purchases/operations/buying-orders/buying-orders/buying-orders.component';
+import { InstantBuyingBillsComponent } from './purchases/operations/instant-buying-bills/instant-buying-bills/instant-buying-bills.component';
+import { BuyingBillsComponent } from './purchases/operations/buying-bills/buying-bills/buying-bills.component';
+import { SerialNumbersComponent } from './purchases/operations/buying-bills/serial-numbers/serial-numbers/serial-numbers.component';
+import { OrderSupplyComponent } from './purchases/operations/order-supply/order-supply/order-supply.component';
+import { CostExternalBuyersComponent } from './purchases/operations/cost-external-buyers/cost-external-buyers/cost-external-buyers.component';
+import { CostLocalBuyersComponent } from './purchases/operations/cost-local-buyers/cost-local-buyers/cost-local-buyers.component';
+import { PaymentBillsPurchasedComponent } from './purchases/operations/payment-bills-purchased/payment-bills-purchased/payment-bills-purchased.component';
 
 
 
@@ -130,7 +142,19 @@ import { SupplyReportsComponent } from './stores/reports/supply-reports/supply-r
     StoresReportsComponent,
     InventoryMovementComponent,
     RotationRateComponent,
-    SupplyReportsComponent
+    SupplyReportsComponent,
+    PurchasesOptionsComponent,
+    DataSuppliersComponent,
+    SupplyDataComponent,
+    BuyingRequestsComponent,
+    BuyingOrdersComponent,
+    InstantBuyingBillsComponent,
+    BuyingBillsComponent,
+    SerialNumbersComponent,
+    OrderSupplyComponent,
+    CostExternalBuyersComponent,
+    CostLocalBuyersComponent,
+    PaymentBillsPurchasedComponent
       ],
   imports: [
     CommonModule,
