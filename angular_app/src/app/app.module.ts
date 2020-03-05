@@ -82,6 +82,16 @@ import { OrderSupplyComponent } from './purchases/operations/order-supply/order-
 import { CostExternalBuyersComponent } from './purchases/operations/cost-external-buyers/cost-external-buyers/cost-external-buyers.component';
 import { CostLocalBuyersComponent } from './purchases/operations/cost-local-buyers/cost-local-buyers/cost-local-buyers.component';
 import { PaymentBillsPurchasedComponent } from './purchases/operations/payment-bills-purchased/payment-bills-purchased/payment-bills-purchased.component';
+import { GlobalOptionsComponent } from './system-adminstration/sys-init/global-options/global-options/global-options.component';
+import { ReportsSignaturesComponent } from './system-adminstration/sys-init/reports-signatures/reports-signatures/reports-signatures.component';
+import { NotifcationsComponent } from './system-adminstration/sys-init/notifcations/notifcations/notifcations.component';
+import { CurrentBranchDataComponent } from './system-adminstration/sys-branch/this-branch/current-branch-data/current-branch-data.component';
+import { LinkedBranchComponent } from './system-adminstration/sys-branch/linked-branches/linked-branch/linked-branch.component';
+import { StopPeriodsComponent } from './system-adminstration/locks/stop-periods/stop-periods/stop-periods.component';
+import { MonthlyLocksComponent } from './system-adminstration/locks/monthly-locks/monthly-locks/monthly-locks.component';
+import { LesbianLossesLocksComponent } from './system-adminstration/locks/annual-locks/lesbian-and-losses-locks/lesbian-losses-locks/lesbian-losses-locks.component';
+import { OpenNewYearComponent } from './system-adminstration/locks/annual-locks/open-new-year/open-new-year/open-new-year.component';
+import { StoreLocksComponent } from './system-adminstration/locks/annual-locks/store-locks/store-locks/store-locks.component';
 
 
 
@@ -154,7 +164,17 @@ import { PaymentBillsPurchasedComponent } from './purchases/operations/payment-b
     OrderSupplyComponent,
     CostExternalBuyersComponent,
     CostLocalBuyersComponent,
-    PaymentBillsPurchasedComponent
+    PaymentBillsPurchasedComponent,
+    GlobalOptionsComponent,
+    ReportsSignaturesComponent,
+    NotifcationsComponent,
+    CurrentBranchDataComponent,
+    LinkedBranchComponent,
+    StopPeriodsComponent,
+    MonthlyLocksComponent,
+    LesbianLossesLocksComponent,
+    OpenNewYearComponent,
+    StoreLocksComponent
       ],
   imports: [
     CommonModule,

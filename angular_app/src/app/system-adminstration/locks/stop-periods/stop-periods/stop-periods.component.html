@@ -1,0 +1,65 @@
+<mat-card dir="rtl">
+    <mat-card-header>
+      <div mat-card-avatar>avatar</div>
+      <mat-card-title>   إيقاف الفترات</mat-card-title>
+      <mat-card-subtitle> إدارة النظام</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="row">
+        <div class="col-sm-4">
+            <mat-card>
+              <mat-form-field appearance="fill">
+                <mat-label>   من تاريخ </mat-label>
+                <input type="date" matInput placeholder="Placeholder" />
+              </mat-form-field>
+            </mat-card>
+          </div>
+          <div class="col-sm-4">
+            <mat-card>
+              <mat-form-field appearance="fill">
+                <mat-label>   الى </mat-label>
+                <input type="date" matInput placeholder="Placeholder" />
+              </mat-form-field>
+            </mat-card>
+          </div>
+          <div class="col-sm-4">
+            <mat-card>
+              <mat-checkbox [(ngModel)]="model">إيقاف الفترة</mat-checkbox>
+            </mat-card>
+          </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-sm-4">
+            <mat-card>
+              <mat-form-field appearance="fill">
+                <mat-label> من تاريخ </mat-label>
+                <input type="date" matInput placeholder="Placeholder" />
+              </mat-form-field>
+            </mat-card>
+          </div>
+          <div class="col-sm-4">
+            <mat-card>
+              <mat-form-field appearance="fill">
+                <mat-label> الى </mat-label>
+                <input type="date" matInput placeholder="Placeholder" />
+              </mat-form-field>
+            </mat-card>
+          </div>
+          <div class="col-sm-4">
+            <mat-card>
+                <mat-checkbox [(ngModel)]="model">إيقاف الفترة</mat-checkbox>
+
+            </mat-card>
+          </div>
+      </div>
+      <mat-card>
+        <mat-card-actions>
+          <button mat-raised-button color="warn">تعديل</button>
+          <button mat-raised-button color="warn">بحث</button>
+          <button mat-raised-button color="warn">حفظ</button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+  
