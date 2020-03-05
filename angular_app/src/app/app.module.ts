@@ -92,6 +92,7 @@ import { MonthlyLocksComponent } from './system-adminstration/locks/monthly-lock
 import { LesbianLossesLocksComponent } from './system-adminstration/locks/annual-locks/lesbian-and-losses-locks/lesbian-losses-locks/lesbian-losses-locks.component';
 import { OpenNewYearComponent } from './system-adminstration/locks/annual-locks/open-new-year/open-new-year/open-new-year.component';
 import { StoreLocksComponent } from './system-adminstration/locks/annual-locks/store-locks/store-locks/store-locks.component';
+import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-locks/cancel-annual-locks/cancel-annual-locks/cancel-annual-locks.component';
 
 
 
@@ -174,7 +175,8 @@ import { StoreLocksComponent } from './system-adminstration/locks/annual-locks/s
     MonthlyLocksComponent,
     LesbianLossesLocksComponent,
     OpenNewYearComponent,
-    StoreLocksComponent
+    StoreLocksComponent,
+    CancelAnnualLocksComponent
       ],
   imports: [
     CommonModule,
