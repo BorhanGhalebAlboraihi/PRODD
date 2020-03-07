@@ -1,0 +1,141 @@
+<mat-card dir="rtl">
+<mat-card-header>
+        <div mat-card-avatar>avatar</div>
+        <mat-card-title> طريقه البحث في القيود اليوميه </mat-card-title>
+        <mat-card-subtitle> العمليات</mat-card-subtitle>
+</mat-card-header>
+<mat-card-content>
+
+    <mat-card id="card">
+
+        <div class="row">
+           <div class="col-sm-6 col-sm-push-6">
+                <mat-card>
+                        <mat-form-field appearance="fill">
+                            <mat-label>  رقم  القيد</mat-label>
+                            <input type="number" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                      </mat-card>
+
+           </div> 
+           <div class="col-sm-6  col-sm-pull-6" >
+                <mat-card>
+                        <mat-form-field appearance="fill">
+                            <input type="number" matInput placeholder="Placeholder">
+                            
+                          </mat-form-field>
+                      </mat-card>
+            </div> 
+        </div>
+
+        <mat-card>
+                <mat-form-field appearance="fill">
+                    <mat-label>    المرجع</mat-label>
+                    <input type="number" matInput placeholder="Placeholder">
+                    
+                  </mat-form-field>
+
+              </mat-card>
+              <div class="row">
+                    <div class="col-sm-6 col-sm-push-6">
+                         <mat-card>
+                                 <mat-form-field appearance="fill">
+                                     <mat-label>    التاريخ</mat-label>
+                                     <input type="date" matInput placeholder="Placeholder">
+                                     
+                                   </mat-form-field>
+                               </mat-card>
+         
+                    </div> 
+                    <div class="col-sm-6  col-sm-pull-6" >
+                         <mat-card>
+                                 <mat-form-field appearance="fill">
+                                     <input type="data" matInput placeholder="Placeholder">
+                                     
+                                   </mat-form-field>
+                               </mat-card>
+                     </div> 
+                 </div>
+
+          <mat-card>
+                <mat-form-field appearance="fill">
+                    <mat-label>    الحساب</mat-label>
+                    <input type="number" matInput placeholder="Placeholder">
+                </mat-form-field>
+          </mat-card>
+
+          <mat-card>
+                <mat-form-field appearance="fill">
+                    <mat-label>    البيان</mat-label>
+                    <input type="number" matInput placeholder="Placeholder">
+                </mat-form-field>
+          </mat-card>
+
+          <hr/>
+
+          <div class="row">
+              <div class="col-sm-4 col-sm-push-8">
+                   <h3>
+                       المبلغ
+                   </h3>
+              </div>
+              <div class="col-sm-4">
+                    <mat-radio-group  >
+                            <mat-radio-button labelPosition="before" value="SUFYAN"><span class="mat-checkbox-label"> > </span></mat-radio-button>
+                            <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label">  =</span></mat-radio-button>
+                            <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label">  < </span></mat-radio-button>
+                            
+                         </mat-radio-group>
+                </div>
+                <div class="col-sm-4 col-sm-pull-8">
+                  
+                        <mat-card>
+                                <mat-form-field appearance="fill">
+                                    
+                                    <input type="number" matInput placeholder="Placeholder">
+                                    
+                                  </mat-form-field>
+                              </mat-card>
+        
+                    </div>
+          </div>
+       <mat-card>
+        
+            <fieldset>
+                    <legend>   الترتيب</legend>
+                  <mat-radio-group  >
+                    <mat-radio-button labelPosition="before" value="SUFYAN"><span  class="mat-checkbox-label"  > بالرقم </span></mat-radio-button>
+                    <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label">  بالتاريخ</span></mat-radio-button>
+                    
+                 </mat-radio-group>
+                   </fieldset>
+    
+           </mat-card>
+
+           <mat-card>
+                <mat-radio-button labelPosition="before" value="SUFYAN"><span  class="mat-checkbox-label"  > المرحله </span></mat-radio-button>
+                <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label">  غير المرحله</span></mat-radio-button>
+                <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label">   الكل</span></mat-radio-button>
+                
+           </mat-card>
+          
+    </mat-card>
+
+
+
+</mat-card-content>
+<mat-card-actions>
+        <div class="row">
+                <div class="col-sm-12">
+                    <button mat-raised-button color="warn">بحث</button>
+                    
+                    <button mat-raised-button>الغاء</button>
+                    <button mat-raised-button>بحث جديد</button>
+                   
+                </div>
+            </div>
+</mat-card-actions>
+
+</mat-card>
+

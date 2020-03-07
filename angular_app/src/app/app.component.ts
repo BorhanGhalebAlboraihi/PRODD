@@ -13,9 +13,7 @@ export class AppComponent extends AppComponentBase implements OnInit, AfterViewI
     constructor(
         injector: Injector
     ) {
-        super(injector);
-    }
-
+        super(injector);     }
     ngOnInit(): void {
 
         SignalRAspNetCoreHelper.initSignalR();

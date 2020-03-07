@@ -1,0 +1,50 @@
+input
+{
+    display: block;
+    margin-top: 10px;
+
+}
+.mat-tab-body-wrapper{
+
+    position: relative;
+  
+    overflow:hidden;
+    
+    display:inline-table;
+   
+   } 
+   
+  mat-form-field
+  {
+text-align: right;
+
+  }
+  mat-tab-group
+  {
+      margin-right: 30px;
+      margin-top: 10px;
+  }
+  fieldset
+  {
+      margin-right: 4px;
+      border: 2px  solid silver;
+      direction: rtl;
+  }
+  mat-radio-group  
+  {
+      margin: 5px;
+      direction: ltr;
+
+  }
+  span
+  {
+      margin: 5px;
+  }
+
+  mat-raised-button
+  {
+float: right;
+margin: 20px;
+margin-top: 10px;
+
+  }
