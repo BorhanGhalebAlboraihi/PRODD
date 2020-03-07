@@ -1,0 +1,41 @@
+mat-card{
+    direction: rtl;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid silver;
+  }
+th
+{
+border: 2px solid silver;
+font-size: 20px;
+text-align: center;
+
+}
+td{
+
+    border: 2px solid silver;
+    font-size: 17px;
+    text-align: center;  
+}
+  mat-radio-button{
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  mat-checkbox 
+  {
+      display: block;
+  }
+  fieldset{
+    margin-bottom: 20px;
+    margin-left: auto;
+    text-align: right;
+    
+}
+.mat-tab-labels {
+    display: flex;
+    flex-flow: row-reverse;
+    
+}

@@ -1,0 +1,12 @@
+table
+{
+    width: 100%;
+}
+fieldset
+{
+    border: 2 solid silver;
+}
+mat-radio-button
+{
+    margin-right: 100px;
+}

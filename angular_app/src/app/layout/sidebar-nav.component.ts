@@ -72,7 +72,7 @@ export class SideBarNavComponent extends AppComponentBase {
             new MenuItem(this.l(' الجرد'), '', '', '', [
                 new MenuItem(this.l('قوائم الجرد'), '', '', '/app/jaard-lists'),
                 new MenuItem('إدخال الجرد اليدوي', '', '', '/app/jaard-manually'),
-                new MenuItem('الجرد الشهــري', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('الجرد الشهــري', '', '', ''),
                 new MenuItem('تقرير زائد وناقص الجرد', '', '', '/app/jaard-reports')
             ]),
             new MenuItem(this.l(' التقارير'), '', '', '', [
@@ -82,6 +82,121 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem(this.l(' تقارير التوريد المخزني'), '', '', '/app/supply-reports')
             ]),
         ]),
+        new MenuItem(this.l('الحسابات'), '', 'business', '', [
+            new MenuItem(this.l('تهيئة النظام'), '', '', '', [
+                new MenuItem('المتغيرات', '', '', '/app/vars-accont'),
+                new MenuItem('الفترات  المحاسبه', '', '', '/app/fatrat-accunt'),
+                new MenuItem('  بيانات العملات ', '', '', '/app/data-many'),
+                new MenuItem('مجموعه الحسابات', '', '', '/app/set-account'),
+                new MenuItem('  مجموعه مراكز التكلفه', '', '', '/app/center-cost-type'),
+                new MenuItem(' انواع  القيود اليوميه', '', '', '/app/const-type'),
+                new MenuItem('  الحسابات الوسيطه', '', '', '/app/account-madial'),
+                     ]),
+            new MenuItem(this.l('المدخلات الأساسية'), '', '', '', [
+                new MenuItem(this.l('الدليل المحاسبي'), '', '', '/app/screed-account'),
+                new MenuItem('مراكز التكلفه', '', '', ''),
+                new MenuItem('الصناديق', '', '', '/app/boxs-account'),
+                new MenuItem('البنوك', '', '', '/app/banks'),
+                new MenuItem('الارصده الاحتياطيه', '', '', '/app/rased-open'),
+                new MenuItem('الموازنه التقديريه', '', '', '/app/elevated-balance')
+
+
+            ]),
+            new MenuItem(this.l('العمليات'), '', '', '', [
+                new MenuItem(this.l('القيود اليوميه'), '', '', '/app/operating-toddays'),
+                new MenuItem(this.l('  طريقه البحث '), '', '', '/app/sersh-const-dayes'),
+                new MenuItem(this.l('   حافظه الصرف اليومي '), '', '', '/app/daily-extchange'),
+                new MenuItem('   حافظه القبض اليومي ', '', '', '/app/daily-arrests'),
+                new MenuItem('سندات الصرف', '', '', '/app/windsons'),
+                new MenuItem('سندت القبض', '', '', '/app/tesions-ofarrests'),
+                new MenuItem('الشيكات المستحقه', '', '', '/app/checks'),
+                new MenuItem(' استحقاق الشيكات المتعدده', '', '', '/app/multi-checks'),
+                new MenuItem(this.l(' توزيع تسديدات العملاء'), '', '', '/app/distribution-coustomer'),
+                new MenuItem(' اشعارات دائنه ومدينه', '', '', '/app/crdible-nofications'),
+                new MenuItem(' تسويه بنكيه', '', '', '/app/tribute-kn')
+            ]),
+            new MenuItem(this.l(' الترحيل'), '', '', '', [
+                new MenuItem(this.l(' القيود اليوميه'), '', '', ''),
+                new MenuItem(this.l('السندات النقديه'), '', '', '/app/migration-bonds'),
+                new MenuItem('السندات الشيكيه', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('الشيكات المستحقه', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('اوامر التوريد المخزنيه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('مردودات  اوامر التوريد', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem(' اوامر الصرف المخزنه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('الشيكات المستحقه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   تسويه المخزون', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   فواتير المشتريات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   فواتير المشترياترالفوريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem(' مردودات المشتريات الفوريه ', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   فواتير المبيعات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   مردودات المبيعات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('     مردودات  سنوات  سابقه     ', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
+            new MenuItem(this.l(' التقارير'), '', '', '', [
+                new MenuItem(this.l('دليل الحسابات'), '', '', ''),
+                new MenuItem('دليل مراكز التكلفه', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('الارصده الافتتاحيه', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('الموازنه التقديريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
+        ]),
+
+        new MenuItem(this.l('المبيعات'), '', 'business', '', [
+            new MenuItem(this.l('تهيئة النظام'), '', '', '', [
+                new MenuItem('المتغيرات', '', '', '/app/options'),
+                new MenuItem('  انواع العملاء', '', '', '/app/customer-types'),
+                new MenuItem(' الفترات المحاسبه ', '', '', '/app/fatrat-accunt'),
+                new MenuItem('  انواع الفيز ', '', '', '/app/type-fiza'),
+                new MenuItem('  بيانات العملات ', '', '', '/app/data-many'),
+                new MenuItem('مجموعه الحسابات', '', '', '/app/set-account'),
+                new MenuItem('  مجموعه مراكز التكلفه', '', '', '/app/center-cost-type'),
+                new MenuItem(' انواع  القيود اليوميه', '', '', '/app/const-type'),
+                new MenuItem('  الحسابات الوسيطه', '', '', '/app/account-madial'),
+                     ]),
+            new MenuItem(this.l('المدخلات '), '', '', '', [
+                new MenuItem(this.l(' بيانات المناطق التجاريه'), '', '', '/app/data-area'),
+                new MenuItem('  بيانات المحصلين', '', '', '/app/data-calege'),
+                new MenuItem('بيانات المندوبين', '', '', '/app/data-delegates'),
+                new MenuItem('بيانات العملاء', '', '', '/app/data-customer'),
+            ]),
+            new MenuItem(this.l('العمليات'), '', '', '', [
+                new MenuItem(this.l(' اقساط العام الماضي '), '', '', '/app/premiums-lastyears'),
+                new MenuItem(this.l('   شاشه عروض الاسعار '), '', '', '/app/showrooms'),
+                new MenuItem(this.l('     طلبات العملاء '), '', '', '/app/customer-requests'),
+                new MenuItem('     فواتير المبيعات ', '', '', '/app-sales-bills'),
+                new MenuItem(' امر صرف فاتوره المبيعات', '', '', '/app/order-sales'),
+                new MenuItem('فاتوره المبيعات المردوده ', '', '', '/app/sales-yields'),
+                new MenuItem(' الاصناف', '', '', '/app/catagory'),
+                new MenuItem('  مردودات السنوات السابقه ', '', '', '/app/yield-lastyears'),
+                new MenuItem(this.l(' توزيع تسديدات العملاء'), '', '', '/app/distribution-coustomer'),
+                new MenuItem(' اشعارات دائنه ومدينه', '', '', '/app/crdible-nofications'),
+                new MenuItem(' تسويه بنكيه', '', '', '/app/tribute-kn')
+            ]),
+            new MenuItem(this.l(' الترحيل'), '', '', '', [
+                new MenuItem(this.l(' القيود اليوميه'), '', '', ''),
+                new MenuItem(this.l('السندات النقديه'), '', '', '/app/migration-bonds'),
+                new MenuItem('السندات الشيكيه', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('الشيكات المستحقه', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('اوامر التوريد المخزنيه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('مردودات  اوامر التوريد', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem(' اوامر الصرف المخزنه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('الشيكات المستحقه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   تسويه المخزون', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   فواتير المشتريات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   فواتير المشترياترالفوريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem(' مردودات المشتريات الفوريه ', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   فواتير المبيعات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('   مردودات المبيعات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
+                new MenuItem('     مردودات  سنوات  سابقه     ', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
+            new MenuItem(this.l(' التقارير'), '', '', '', [
+                new MenuItem(this.l('دليل الحسابات'), '', '', ''),
+                new MenuItem('دليل مراكز التكلفه', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
+                new MenuItem('الارصده الافتتاحيه', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
+                new MenuItem('الموازنه التقديريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+            ]),
+        ]),
+
+
         new MenuItem(this.l('المشتريات'), '', 'business', '', [
             new MenuItem(this.l('تهيئة النظام'), '', '', '', [
                 new MenuItem(this.l('الخيارات'), '', '', '/app/purchases-options')

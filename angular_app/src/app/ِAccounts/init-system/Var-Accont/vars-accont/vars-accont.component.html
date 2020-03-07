@@ -1,0 +1,124 @@
+<mat-card dir="rtl">
+    <mat-card-header class="text-right">
+      <div mat-card-avatar>avatar</div>
+      <mat-card-subtitle>تهيئة النظام</mat-card-subtitle>
+      <mat-card-title> المتغيرات</mat-card-title>
+    </mat-card-header>
+    <div class="row">
+        <div class="col-xm-12">
+    <mat-card-content>
+      <mat-tab-group dir="ltr" mat-align-tabs="end">
+        
+        <mat-tab label="  تهيئه العمليات"  >
+            <div class="mat-tab-body-wrapper">
+             <fieldset>
+               <legend> الميزانيه التقديريه</legend>
+             <mat-radio-group >
+               <mat-radio-button labelPosition="before" value="SUFYAN"><span class="mat-checkbox-label">سنويه</span></mat-radio-button>
+               <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label"> شهريه</span></mat-radio-button>
+               
+            </mat-radio-group>
+              </fieldset>
+     
+       
+       
+         <fieldset>
+                <legend >( تهئيه السندات (القبض-الصرف </legend>
+                      
+         <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> اظهار اسم العميل  </span> </mat-checkbox>
+         <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> اظهار اسم المورد  </span> </mat-checkbox>
+         <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  اظهار رمز العمله </span></mat-checkbox>
+         <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> استخدام ميزه السندات المعلقه </span> </mat-checkbox>
+         <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  استخدام وانزال بيانات الحافظات اليوميه في السندات  </span> </mat-checkbox>
+         <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  استخدام رقم المرجع في السندات التحميل او الصرف على مستوى الحسابات    </span> </mat-checkbox>
+         <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  استخدام رقم السند  التحصيل   او الصرف على مستوى الحسابات    </span> </mat-checkbox>
+          
+        
+        
+        </fieldset>
+     
+        <fieldset> 
+                <legend >( تهئيه الحافظات اليوميه  (القبض-الصرف  </legend>
+                
+                <fieldset  >
+                        <legend > تقييد العمليات</legend>
+                         <mat-radio-group >
+                                <mat-radio-button labelPosition="before" value="SUFYAN"><span class="mat-checkbox-label">تعدد (الصناديق-البنوك) لكل حساب في الحاظه اليوميه</span></mat-radio-button>
+                                <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label"> تحديد (صندوق- بنك) وحيد لكل مستندات الحافظه اليومي</span></mat-radio-button>
+                             </mat-radio-group>
+                     </fieldset>
+
+                     <fieldset  >
+                            <legend >  تهئيه عمليه التحصيل</legend>
+                             <mat-radio-group >
+                                    <mat-radio-button labelPosition="before" value="SUFYAN"><span class="mat-checkbox-label">تعدد (المحصلين) لكل حساب في حافظه القبظ اليوميه</span></mat-radio-button>
+                                    <mat-radio-button labelPosition="before" value="ALI"><span class="mat-checkbox-label"> تحديد ( محصل) وحيد لكل مستندات الحافظه اليومي</span></mat-radio-button>
+                                 </mat-radio-group>
+                         </fieldset>
+                
+               </fieldset>
+              
+      
+               <fieldset>
+                    <legend >( تهئيه السندات (القبض-الصرف </legend>
+                          
+             <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> اظهار اسم العميل  </span> </mat-checkbox>
+             <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> اظهار اسم المورد  </span> </mat-checkbox>
+             <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  استخدام رقم المرجع في الحافظات على مستوى كل حساب   </span></mat-checkbox>
+             <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">استخدام رقم السند التحصيل او الصرف  على مستوى الحساب </span> </mat-checkbox>
+             <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  اظهار اسم المستلم في حافظات الصرف على مستوى الحساب    </span> </mat-checkbox>
+                        
+            
+            
+            </fieldset>
+              
+            </div>
+           </mat-tab>
+           
+           
+          
+        <mat-tab label="الخيارات العامه">
+                <div class="mat-tab-body-wrapper align-right">
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> توزيع التسديدات اليا  </span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">استخدام قيود تحت الانتظار</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  التعامل مع العملات الاجنبيه </span></mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  طباعه نموذجين لقيود اليوميه</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">    استخدام قيمه الظريبه المظافه</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">استخدام انواع الوثائق في القيود</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">الترحيل لحساب الترويج في المبيعات</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">إظهار تقارير قيود اليوميه من اليوميه العامه</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">السماحيه بادخال قيود تسويه لفوارق عامه</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> اظهار عمود لنسب للجانب الدائن في قيود اليوميه</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> الحساب الررئسي غير متضمنا  في الحساب الفرعي</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  كشف حساب تفصيلي مع مردود المبيعات وسنجدات القبض</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> التعامل مع رقم الشيك وتاريخ الاستحقاق في القيود اليوميه</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> اظهار قائمه البيان في القيود والسنداتوتقارير كشف الحسابات </span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">  اظهار عدد مرات الطباعه لكشف حساب حتى تاريخ معين</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> ادخال المقابل المحلي للمبلغ الاجنبي يدويا في السندات والقيود </span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> استحدام  الحافظات   اليوميه (القبض -الصرف) في النظام</span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label"> تحديد رتبه الحسابات الفرعيه </span> </mat-checkbox>
+                  <mat-checkbox labelPosition="before" > <span style="margin-right: 5px;" class="mat-checkbox-label">عدد الخانات العشريه بعد العلامه لسعر التحويل</span> </mat-checkbox>
+                  
+                  
+                  
+                </div>
+                
+              </mat-tab>
+      
+     
+      </mat-tab-group>
+    </mat-card-content>
+</div>
+</div>
+    <mat-card-actions >
+      <div class="row">
+
+        <div class="col-sm-12">
+            <button mat-raised-button color="primary" >تـــعـــديل</button>
+            <button mat-raised-button color="primary" >حفـــظ</button>
+            <button mat-raised-button >الغاء</button>
+
+        </div>    </div>
+     
+      </mat-card-actions>
+  </mat-card>
