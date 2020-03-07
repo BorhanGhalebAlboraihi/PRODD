@@ -51,6 +51,17 @@ import { CostLocalBuyersComponent } from './purchases/operations/cost-local-buye
 import { InstantBuyingBillsComponent } from './purchases/operations/instant-buying-bills/instant-buying-bills/instant-buying-bills.component';
 import { OrderSupplyComponent } from './purchases/operations/order-supply/order-supply/order-supply.component';
 import { PaymentBillsPurchasedComponent } from './purchases/operations/payment-bills-purchased/payment-bills-purchased/payment-bills-purchased.component';
+import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-locks/cancel-annual-locks/cancel-annual-locks/cancel-annual-locks.component';
+import { LesbianLossesLocksComponent } from './system-adminstration/locks/annual-locks/lesbian-and-losses-locks/lesbian-losses-locks/lesbian-losses-locks.component';
+import { OpenNewYearComponent } from './system-adminstration/locks/annual-locks/open-new-year/open-new-year/open-new-year.component';
+import { StoreLocksComponent } from './system-adminstration/locks/annual-locks/store-locks/store-locks/store-locks.component';
+import { MonthlyLocksComponent } from './system-adminstration/locks/monthly-locks/monthly-locks/monthly-locks.component';
+import { StopPeriodsComponent } from './system-adminstration/locks/stop-periods/stop-periods/stop-periods.component';
+import { LinkedBranchComponent } from './system-adminstration/sys-branch/linked-branches/linked-branch/linked-branch.component';
+import { CurrentBranchDataComponent } from './system-adminstration/sys-branch/this-branch/current-branch-data/current-branch-data.component';
+import { GlobalOptionsComponent } from './system-adminstration/sys-init/global-options/global-options/global-options.component';
+import { NotifcationsComponent } from './system-adminstration/sys-init/notifcations/notifcations/notifcations.component';
+import { ReportsSignaturesComponent } from './system-adminstration/sys-init/reports-signatures/reports-signatures/reports-signatures.component';
 
 
 
@@ -112,6 +123,18 @@ import { PaymentBillsPurchasedComponent } from './purchases/operations/payment-b
                     { path: 'instant-buying-bills', component: InstantBuyingBillsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'order-supply', component: OrderSupplyComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'payment-bills-purchased', component: PaymentBillsPurchasedComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    
+                    { path: 'cancel-annual-locks', component: CancelAnnualLocksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'lesbian-losses-locks', component: LesbianLossesLocksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'open-new-year', component: OpenNewYearComponent , data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'store-locks', component: StoreLocksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'monthly-locks', component: MonthlyLocksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'stop-periods', component: StopPeriodsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'linked-branch', component: LinkedBranchComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'current-branch-data', component: CurrentBranchDataComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'global-options', component: GlobalOptionsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'notifcations', component: NotifcationsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'reports-signatures', component: ReportsSignaturesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'about', component: AboutComponent },
                     { path: 'update-password', component: ChangePasswordComponent }
                 ]
