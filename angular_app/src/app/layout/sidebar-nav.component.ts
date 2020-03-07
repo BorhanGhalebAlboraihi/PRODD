@@ -15,6 +15,33 @@ export class SideBarNavComponent extends AppComponentBase {
         new MenuItem(this.l('Tenants'), 'Pages.Tenants', 'business', '/app/tenants'),
         new MenuItem(this.l('Users'), 'Pages.Users', 'people', '/app/users'),
         new MenuItem(this.l('Roles'), 'Pages.Roles', 'local_offer', '/app/roles'),
+        new MenuItem(this.l('إدرارة النظام'), '', 'business', '', [
+            new MenuItem(this.l('تهيئة النظام'), '', '', '', [
+                new MenuItem(this.l('الخيارات العامة'), '', '', '/app/purchases-options'),
+                new MenuItem(this.l(' توقيعات التقارير'), '', '', '/app/purchases-options'),
+                new MenuItem(this.l(' التنبيهات'), '', '', '/app/purchases-options')
+            ]),
+            new MenuItem(this.l('المدخلات الأساسية'), '', '', '', [
+                new MenuItem(this.l('بيانات الموردين'), '', '', '/app/data-suppliers'),
+                new MenuItem('بيانات التوريد', '', '', '/app/supply-data')
+                ]),
+            new MenuItem(this.l('العمليات'), '', '', '', [
+                new MenuItem(this.l('طلبات الشراء'), '', '', '/app/buying-requests'),
+                new MenuItem(this.l('أوامر الشراء'), '', '', '/app/buying-orders'),
+                new MenuItem(this.l('  فواتير مشتروات فورية '), '', '', '/app/instant-buying-bills'),
+                new MenuItem(this.l(' فواتير المشتروات'), '', '', '/app/buying-bills'),
+                new MenuItem(this.l('  إذن التوريد'), '', '', '/app/order-supply'),
+                new MenuItem(this.l('تكلفة المشروات الخارجية'), '', '', '/app/cost-external-buyers'),
+                new MenuItem(this.l('تكلفة المشروات المحلية'), '', '', '/app/cost-local-buyers'),
+                new MenuItem(this.l('فواتير مردود المشتروات'), '', '', '/app/payment-bills-purchased')
+            ]),
+                new MenuItem(this.l(' التقارير'), '', '', '', [
+                new MenuItem(this.l('تقرير المخزون'), '', '', '/app/stores-reports'),
+                new MenuItem(this.l('حركة المخزون'), '', '', '/app/inventory-movement'),
+                new MenuItem(this.l(' معدل الدوران'), '', '', '/app/rotation-rate'),
+                new MenuItem(this.l(' تقارير التوريد المخزني'), '', '', '/app/supply-reports')
+            ]),
+        ]),
         new MenuItem(this.l('Stores'), '', 'business', '', [
             new MenuItem(this.l('تهيئة النظام'), '', '', '', [
                 new MenuItem(this.l('المتغيرات'), '', '', '/app/sys-variables'),
@@ -108,6 +135,7 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('الموازنه التقديريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
             ]),
         ]),
+<<<<<<< HEAD
         new MenuItem(this.l('المبيعات'), '', 'business', '', [
             new MenuItem(this.l('تهيئة النظام'), '', '', '', [
                 new MenuItem('المتغيرات', '', '', '/app/options'),
@@ -166,8 +194,36 @@ export class SideBarNavComponent extends AppComponentBase {
         
 
 
+=======
+        new MenuItem(this.l('المشتريات'), '', 'business', '', [
+            new MenuItem(this.l('تهيئة النظام'), '', '', '', [
+                new MenuItem(this.l('الخيارات'), '', '', '/app/purchases-options')
+            ]),
+            new MenuItem(this.l('المدخلات الأساسية'), '', '', '', [
+                new MenuItem(this.l('بيانات الموردين'), '', '', '/app/data-suppliers'),
+                new MenuItem('بيانات التوريد', '', '', '/app/supply-data')
+                ]),
+            new MenuItem(this.l('العمليات'), '', '', '', [
+                new MenuItem(this.l('طلبات الشراء'), '', '', '/app/buying-requests'),
+                new MenuItem(this.l('أوامر الشراء'), '', '', '/app/buying-orders'),
+                new MenuItem(this.l('  فواتير مشتروات فورية '), '', '', '/app/instant-buying-bills'),
+                new MenuItem(this.l(' فواتير المشتروات'), '', '', '/app/buying-bills'),
+                new MenuItem(this.l('  إذن التوريد'), '', '', '/app/order-supply'),
+                new MenuItem(this.l('تكلفة المشروات الخارجية'), '', '', '/app/cost-external-buyers'),
+                new MenuItem(this.l('تكلفة المشروات المحلية'), '', '', '/app/cost-local-buyers'),
+                new MenuItem(this.l('فواتير مردود المشتروات'), '', '', '/app/payment-bills-purchased')
+            ]),
+                new MenuItem(this.l(' التقارير'), '', '', '', [
+                new MenuItem(this.l('تقرير المخزون'), '', '', '/app/stores-reports'),
+                new MenuItem(this.l('حركة المخزون'), '', '', '/app/inventory-movement'),
+                new MenuItem(this.l(' معدل الدوران'), '', '', '/app/rotation-rate'),
+                new MenuItem(this.l(' تقارير التوريد المخزني'), '', '', '/app/supply-reports')
+            ]),
+        ]),
+>>>>>>> a593a1ff85a4a8a226351b87c8b6ae7b5b5256be
             new MenuItem(this.l('About'), '', 'info', '/app/about'),
 
+            
         new MenuItem(this.l('MultiLevelMenu'), '', 'menu', '', [
             new MenuItem('ASP.NET Boilerplate', '', '', '', [
                 new MenuItem('Home', '', '', 'https://aspnetboilerplate.com/?ref=abptmpl'),

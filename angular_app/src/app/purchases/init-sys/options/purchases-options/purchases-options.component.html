@@ -1,0 +1,43 @@
+<mat-card dir="rtl">
+    <mat-card-header>
+      <div mat-card-avatar>avatar</div>
+      <mat-card-title>  الخيارات</mat-card-title>
+      <mat-card-subtitle> المشتريات</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-card>
+      <mat-card-subtitle> الكميات المجانية</mat-card-subtitle>
+      <hr>
+      <div class="row">
+          <div class="col-sm-12">
+            <mat-card>
+            	<mat-radio-button value="تؤثر على التكلفة بتخفيضها">تؤثر على التكلفة بتخفيضها</mat-radio-button>
+            	<mat-radio-button value="تدخل كأيرادات">تدخل كأيرادات</mat-radio-button>
+            </mat-card>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-sm-12">
+            <mat-card>
+             
+                <hr>
+              <mat-checkbox [(ngModel)]="model">إستخدام تفاصيل البيان الجمركي</mat-checkbox>
+              <mat-checkbox [(ngModel)]="model">إستخدام أنواع اوامر الشراء</mat-checkbox>
+              <mat-checkbox [(ngModel)]="model">عمل قيد يومية او سند صرف والترحيل من إذن التوريد</mat-checkbox>
+              <mat-checkbox [(ngModel)]="model">إظهار زر فتح الإعتماد في إحتساب تكلفة المشتريات</mat-checkbox>
+            </mat-card>
+          </div>
+          
+        </div>
+ 
+      </mat-card>
+  
+      <mat-card>
+        <mat-card-actions>
+          <button mat-raised-button color="warn">حفـــظ</button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+  

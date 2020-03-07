@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+  }
+
+  mat-card{
+    padding: 10px;
+    margin-bottom: 10px;
+    direction: rtl;
+  }
+  mat-radio-button{
+      margin-left: 30px;
+      margin-right:30px ;
+  }
