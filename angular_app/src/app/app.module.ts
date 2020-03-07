@@ -46,7 +46,7 @@ import { SupplyOrdersComponent } from './stores/init_system/supply-orders/supply
 import { ExchangeOrdersComponent } from './stores/init_system/exchange-orders/exchange-orders/exchange-orders.component';
 import { ConversionOrdersComponent } from './stores/init_system/conversion-orders/conversion-orders/conversion-orders.component';
 import { MeasurementUnitsComponent } from './stores/init_system/measurement_units/measurement-units/measurement-units.component';
-<<<<<<< HEAD
+
 import { VarsAccontComponent } from './ِAccounts/init-system/Var-Accont/vars-accont/vars-accont.component';
 import { FatratAccuntComponent } from './ِAccounts/init-system/fatrah_Accounting/fatrat-accunt/fatrat-accunt.component';
 import { DataManyComponent } from './ِAccounts/init-system/Data-many/data-many/data-many.component';
@@ -86,7 +86,7 @@ import { OrderSalesComponent } from './Sales_managment/Operation_Mangmeint/order
 import { SalesYieldsComponent } from './Sales_managment/Operation_Mangmeint/Sales_yield/sales-yields/sales-yields.component';
 import { CatagoryComponent } from './Sales_managment/Operation_Mangmeint/Catageory/catagory/catagory.component';
 import { YieldLastyearsComponent } from './Sales_managment/Operation_Mangmeint/yield-lastyears/yield-lastyears/yield-lastyears.component';
-=======
+
 import { GroupsDataComponent } from './stores/basic_inputs/group-data/groups-data/groups-data.component';
 import { CatagoresDataComponent } from './stores/basic_inputs/catagores-data/catagores-data/catagores-data.component';
 import { StoresDataComponent } from './stores/basic_inputs/stores-data/stores-data/stores-data.component';
@@ -133,11 +133,8 @@ import { MonthlyLocksComponent } from './system-adminstration/locks/monthly-lock
 import { LesbianLossesLocksComponent } from './system-adminstration/locks/annual-locks/lesbian-and-losses-locks/lesbian-losses-locks/lesbian-losses-locks.component';
 import { OpenNewYearComponent } from './system-adminstration/locks/annual-locks/open-new-year/open-new-year/open-new-year.component';
 import { StoreLocksComponent } from './system-adminstration/locks/annual-locks/store-locks/store-locks/store-locks.component';
-<<<<<<< HEAD
+
 import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-locks/cancel-annual-locks/cancel-annual-locks/cancel-annual-locks.component';
-=======
->>>>>>> a593a1ff85a4a8a226351b87c8b6ae7b5b5256be
->>>>>>> 37602ffaebcee21b6c83d3bfce29c9d4400f369c
 
 
 
@@ -175,7 +172,7 @@ import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-
     ExchangeOrdersComponent,
     ConversionOrdersComponent,
     MeasurementUnitsComponent,
-<<<<<<< HEAD
+
     VarsAccontComponent,
     FatratAccuntComponent,
     DataManyComponent,
@@ -215,8 +212,7 @@ import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-
     SalesYieldsComponent,
     CatagoryComponent,
     YieldLastyearsComponent
-    ],
-=======
+    ,
     GroupsDataComponent,
     CatagoresDataComponent,
     StoresDataComponent,
@@ -265,7 +261,7 @@ import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-
     StoreLocksComponent,
     CancelAnnualLocksComponent
       ],
->>>>>>> a593a1ff85a4a8a226351b87c8b6ae7b5b5256be
+
   imports: [
     CommonModule,
     FormsModule,

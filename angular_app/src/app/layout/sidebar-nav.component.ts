@@ -27,12 +27,12 @@ export class SideBarNavComponent extends AppComponentBase {
                 ]),
             new MenuItem(this.l('الإقفالات'), '', '', '', [
                 new MenuItem(this.l('الإقفال الشهري'), '', '', '/app/monthly-locks'),
-                new MenuItem(this.l('الإقفال السنوي'), '', '', '', [
+                
                     new MenuItem(this.l('إقفالات الأرباح والخسائر'), '', '', '/app/lesbian-losses-locks'),
                     new MenuItem(this.l('فتح سنة جديدة'), '', '', '/app/open-new-year'),
                     new MenuItem(this.l('إقفالات المخازن'), '', '', '/app/store-locks'),
                     new MenuItem(this.l('إلغاء الإقفال السنوي'), '', '', '/app/cancel-annual-locks'),
-                ]),
+                
                 new MenuItem(this.l('إقاف الفترات'), '', '', '/app/stop-periods')
             ])
 

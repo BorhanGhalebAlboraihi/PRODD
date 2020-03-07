@@ -16,7 +16,7 @@ import { SupplyOrdersComponent } from './stores/init_system/supply-orders/supply
 import { ExchangeOrdersComponent } from './stores/init_system/exchange-orders/exchange-orders/exchange-orders.component';
 import { ConversionOrdersComponent } from './stores/init_system/conversion-orders/conversion-orders/conversion-orders.component';
 import { MeasurementUnitsComponent } from './stores/init_system/measurement_units/measurement-units/measurement-units.component';
-<<<<<<< HEAD
+
 import { VarsAccontComponent } from './ِAccounts/init-system/Var-Accont/vars-accont/vars-accont.component';
 import { FatratAccuntComponent } from './ِAccounts/init-system/fatrah_Accounting/fatrat-accunt/fatrat-accunt.component';
 import { DataManyComponent } from './ِAccounts/init-system/Data-many/data-many/data-many.component';
@@ -57,7 +57,7 @@ import { OrderSalesComponent } from './Sales_managment/Operation_Mangmeint/order
 import { SalesYieldsComponent } from './Sales_managment/Operation_Mangmeint/Sales_yield/sales-yields/sales-yields.component';
 import { CatagoryComponent } from './Sales_managment/Operation_Mangmeint/Catageory/catagory/catagory.component';
 import { YieldLastyearsComponent } from './Sales_managment/Operation_Mangmeint/yield-lastyears/yield-lastyears/yield-lastyears.component';
-=======
+
 import { GroupsDataComponent } from './stores/basic_inputs/group-data/groups-data/groups-data.component';
 import { CatagoresDataComponent } from './stores/basic_inputs/catagores-data/catagores-data/catagores-data.component';
 import { StoresDataComponent } from './stores/basic_inputs/stores-data/stores-data/stores-data.component';
@@ -93,7 +93,7 @@ import { CostLocalBuyersComponent } from './purchases/operations/cost-local-buye
 import { InstantBuyingBillsComponent } from './purchases/operations/instant-buying-bills/instant-buying-bills/instant-buying-bills.component';
 import { OrderSupplyComponent } from './purchases/operations/order-supply/order-supply/order-supply.component';
 import { PaymentBillsPurchasedComponent } from './purchases/operations/payment-bills-purchased/payment-bills-purchased/payment-bills-purchased.component';
-<<<<<<< HEAD
+
 import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-locks/cancel-annual-locks/cancel-annual-locks/cancel-annual-locks.component';
 import { LesbianLossesLocksComponent } from './system-adminstration/locks/annual-locks/lesbian-and-losses-locks/lesbian-losses-locks/lesbian-losses-locks.component';
 import { OpenNewYearComponent } from './system-adminstration/locks/annual-locks/open-new-year/open-new-year/open-new-year.component';
@@ -105,9 +105,6 @@ import { CurrentBranchDataComponent } from './system-adminstration/sys-branch/th
 import { GlobalOptionsComponent } from './system-adminstration/sys-init/global-options/global-options/global-options.component';
 import { NotifcationsComponent } from './system-adminstration/sys-init/notifcations/notifcations/notifcations.component';
 import { ReportsSignaturesComponent } from './system-adminstration/sys-init/reports-signatures/reports-signatures/reports-signatures.component';
-=======
->>>>>>> a593a1ff85a4a8a226351b87c8b6ae7b5b5256be
->>>>>>> 37602ffaebcee21b6c83d3bfce29c9d4400f369c
 
 
 
@@ -184,8 +181,7 @@ import { ReportsSignaturesComponent } from './system-adminstration/sys-init/repo
                     { path: 'exchange-orders', component: ExchangeOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'conversion-orders', component: ConversionOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'measurement-units', component: MeasurementUnitsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-<<<<<<< HEAD
-=======
+
                     { path: 'groups-data', component: GroupsDataComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'catagores-data', component: CatagoresDataComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'stores-data', component: StoresDataComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
@@ -221,7 +217,7 @@ import { ReportsSignaturesComponent } from './system-adminstration/sys-init/repo
                     { path: 'instant-buying-bills', component: InstantBuyingBillsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'order-supply', component: OrderSupplyComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'payment-bills-purchased', component: PaymentBillsPurchasedComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-<<<<<<< HEAD
+
                     
                     { path: 'cancel-annual-locks', component: CancelAnnualLocksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'lesbian-losses-locks', component: LesbianLossesLocksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
@@ -234,9 +230,7 @@ import { ReportsSignaturesComponent } from './system-adminstration/sys-init/repo
                     { path: 'global-options', component: GlobalOptionsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'notifcations', component: NotifcationsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'reports-signatures', component: ReportsSignaturesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-=======
->>>>>>> a593a1ff85a4a8a226351b87c8b6ae7b5b5256be
->>>>>>> 37602ffaebcee21b6c83d3bfce29c9d4400f369c
+
                     { path: 'about', component: AboutComponent },
                     { path: 'update-password', component: ChangePasswordComponent }
                 ]
