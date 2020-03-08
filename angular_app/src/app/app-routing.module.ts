@@ -105,6 +105,14 @@ import { CurrentBranchDataComponent } from './system-adminstration/sys-branch/th
 import { GlobalOptionsComponent } from './system-adminstration/sys-init/global-options/global-options/global-options.component';
 import { NotifcationsComponent } from './system-adminstration/sys-init/notifcations/notifcations/notifcations.component';
 import { ReportsSignaturesComponent } from './system-adminstration/sys-init/reports-signatures/reports-signatures/reports-signatures.component';
+import { CustomerDataReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Customer data reports/customer-data-reports/customer-data-reports.component';
+import { BalsalloReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Balsallo_Offers_Reports/balsallo-reports/balsallo-reports.component';
+import { ReportRequestCustomerComponent } from './Sales_managment/Reports_manger/Reports_customer/report_request_custmer/report-request-customer/report-request-customer.component';
+import { DebtsYearsComponent } from './Sales_managment/Reports_manger/Reports_customer/Debts_years/debts-years/debts-years.component';
+import { ReportRasedCustomersComponent } from './Sales_managment/Reports_manger/Reports_customer/report_rased_customers/report-rased-customers/report-rased-customers.component';
+import { PremiumReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Premium_reports/premium-reports/premium-reports.component';
+import { SalesInvoReportsComponent } from './Sales_managment/Reports_manger/Sales _invoice/Sales_invoice_reports/sales-invo-reports/sales-invo-reports.component';
+import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sales _invoice/Gross_profit_margin/gross-profit-margin/gross-profit-margin.component';
 
 
 
@@ -181,7 +189,10 @@ import { ReportsSignaturesComponent } from './system-adminstration/sys-init/repo
                     { path: 'exchange-orders', component: ExchangeOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'conversion-orders', component: ConversionOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'measurement-units', component: MeasurementUnitsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-
+                   
+                    { path: 'customer-data-reports', component: CustomerDataReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                   
+                              
                     { path: 'groups-data', component: GroupsDataComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'catagores-data', component: CatagoresDataComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'stores-data', component: StoresDataComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
@@ -208,7 +219,15 @@ import { ReportsSignaturesComponent } from './system-adminstration/sys-init/repo
                     { path: 'supply-reports', component: SupplyReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'purchases-options', component: PurchasesOptionsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'data-suppliers', component: DataSuppliersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'balsallo-reports', component: BalsalloReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'report-request-customer', component: ReportRequestCustomerComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'debts-years', component: DebtsYearsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'report-rased-customers', component: ReportRasedCustomersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'premium-reports', component: PremiumReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'sales-invo-reports', component: SalesInvoReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'gross-profit-margin', component: GrossProfitMarginComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                    
+                    
                     { path: 'buying-bills', component: BuyingBillsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'buying-orders', component: BuyingOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'buying-requests', component: BuyingRequestsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },

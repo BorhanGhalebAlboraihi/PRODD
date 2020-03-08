@@ -135,6 +135,14 @@ import { OpenNewYearComponent } from './system-adminstration/locks/annual-locks/
 import { StoreLocksComponent } from './system-adminstration/locks/annual-locks/store-locks/store-locks/store-locks.component';
 
 import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-locks/cancel-annual-locks/cancel-annual-locks/cancel-annual-locks.component';
+import { CustomerDataReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Customer data reports/customer-data-reports/customer-data-reports.component';
+import { BalsalloReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Balsallo_Offers_Reports/balsallo-reports/balsallo-reports.component';
+import { ReportRequestCustomerComponent } from './Sales_managment/Reports_manger/Reports_customer/report_request_custmer/report-request-customer/report-request-customer.component';
+import { DebtsYearsComponent } from './Sales_managment/Reports_manger/Reports_customer/Debts_years/debts-years/debts-years.component';
+import { ReportRasedCustomersComponent } from './Sales_managment/Reports_manger/Reports_customer/report_rased_customers/report-rased-customers/report-rased-customers.component';
+import { PremiumReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Premium_reports/premium-reports/premium-reports.component';
+import { SalesInvoReportsComponent } from './Sales_managment/Reports_manger/Sales _invoice/Sales_invoice_reports/sales-invo-reports/sales-invo-reports.component';
+import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sales _invoice/Gross_profit_margin/gross-profit-margin/gross-profit-margin.component';
 
 
 
@@ -259,7 +267,15 @@ import { CancelAnnualLocksComponent } from './system-adminstration/locks/annual-
     LesbianLossesLocksComponent,
     OpenNewYearComponent,
     StoreLocksComponent,
-    CancelAnnualLocksComponent
+    CancelAnnualLocksComponent,
+    CustomerDataReportsComponent,
+    BalsalloReportsComponent,
+    ReportRequestCustomerComponent,
+    DebtsYearsComponent,
+    ReportRasedCustomersComponent,
+    PremiumReportsComponent,
+    SalesInvoReportsComponent,
+    GrossProfitMarginComponent
       ],
 
   imports: [

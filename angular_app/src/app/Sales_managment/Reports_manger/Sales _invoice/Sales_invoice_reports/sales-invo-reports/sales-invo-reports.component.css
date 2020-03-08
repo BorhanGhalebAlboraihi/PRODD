@@ -1,0 +1,18 @@
+mat-radio-button
+{
+    display: block;
+}
+
+
+mat-select
+{
+    direction: rtl;
+}
+mat-label
+{
+    float: right;
+}
+mat-card
+{
+    margin-top: 15px;
+}

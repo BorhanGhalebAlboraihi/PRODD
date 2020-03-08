@@ -1,236 +1,180 @@
 <mat-card dir="rtl">
-    <mat-card-header>
-        <div mat-card-avatar>avatar</div>
-         <mat-card-title>  تقـــرير   المخـــزون</mat-card-title>
-        <mat-card-subtitle> التقارير</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-        <div class="row">
-            <div class="col-sm-6">
-                <mat-card >
-
-                    <div class="row">
-                          
-                
-                      <div class="col-sm-12">
-                       
-                            <mat-card>
-                              <mat-select placeholder="ترتيب التقرير">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
-                            </mat-card>
-      
-      
-                           
-              
-                           
-      
-                      </div>
-      
-                      
-      
-                  </div>
-                    
-                  
-      
-                  <div class="row">
-                      <div class="col-sm-6">
-                         
-                          <mat-card>
-                              <mat-form-field appearance="fill">
-                                  <mat-label>  رقم المجموعة</mat-label>
-                                  <input type="number" matInput placeholder="Placeholder">
-                                  
-                                  
-                                </mat-form-field>
-                          </mat-card>
-                      </div>
-                      <div class="col-sm-6">
-                         
-                          <mat-card>
-                      
-                              <mat-form-field appearance="fill">
-                                  <mat-label>   الى</mat-label>
-                                  <input type="number" matInput placeholder="Placeholder">
-                                  
-                                  
-                                </mat-form-field>
-      
-                          </mat-card>
-      
-                      </div>
-                  </div>
-      
-              <div class="row">
-                      <div class="col-sm-6">
-                         
-                          <mat-card>
-                              <mat-form-field appearance="fill">
-                                  <mat-label>رقم الصنف    </mat-label>
-                                  <input matInput placeholder="Placeholder">
-                                  
-                                  
-                                </mat-form-field>
-          
-                          </mat-card>
-                      </div>
-                      <div class="col-sm-6">
-                          <mat-card>
-                              <mat-form-field appearance="fill">
-                                  <mat-label> الى  </mat-label>
-                                  <input type="number" matInput placeholder="Placeholder">
-                                  
-                                  
-                                </mat-form-field>
-                          </mat-card>
-      
-                      </div>
-                  </div>
-      
-                  <div class="row">
-                      <div class="col-sm-6">
-                         
-      
-                          <mat-form-field appearance="fill">
-                              <mat-label>   إسم الصنف</mat-label>
-                              <input matInput placeholder="Placeholder">
-                              
-                              
-                            </mat-form-field>
-                  
-                            
-                      </div>
-                      <div class="col-sm-6">
-                         
-                          <mat-form-field appearance="fill">
-                              <mat-label>مواصفات الصنف   </mat-label>
-                              <input matInput placeholder="Placeholder">
-                              
-                              
-                            </mat-form-field>
-                      </div>
-                  </div>
-      
-                  <div class="row">
-                      <div class="col-sm-6">
-                         
-                          <mat-card>
-                              <mat-select placeholder=" النـــوع">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
-                          </mat-card>
-      
-                      </div>
-                      <div class="col-sm-6">
-                          <mat-card>
-                              <mat-select placeholder="الوحــدة">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
-                          </mat-card>
-      
-                      </div>
-                  </div>
-      
-                  <div class="row">
-                      <div class="col-sm-6">
-                         
-                          <mat-card>
-                              <mat-select placeholder=" من المخــزن رقم">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
-                          </mat-card>
-      
-                      </div>
-                      <div class="col-sm-6">
-                          <mat-card>
-                              <mat-select placeholder="الى">
-                                  <mat-option [value]="'val'">{{val}}</mat-option>
-                              </mat-select>
-                          </mat-card>
-      
-                      </div>
-                  </div>
-      
-      
-                  <div class="row">
-                      <div class="col-sm-12">
-                         
-                          <mat-card>
-                              <mat-radio-group>
-                                  <mat-radio-button value="val"> تجميع حسب الأصناف للكميات فقط</mat-radio-button>
-                                 </mat-radio-group>
-                          </mat-card>
-      
-                      </div>
-                      
-      
-                      
-                  </div>
-      
-                 </mat-card>
+  <mat-card-header>
+    <div mat-card-avatar>avatar</div>
+    <mat-card-title> تقـــرير المخـــزون</mat-card-title>
+    <mat-card-subtitle> التقارير</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="row">
+      <div class="col-sm-6">
+        <mat-card>
+          <div class="row">
+            <div class="col-sm-12">
+              <mat-card>
+                <mat-select placeholder="ترتيب التقرير">
+                  <mat-option [value]="'val'"></mat-option>
+                </mat-select>
+              </mat-card>
             </div>
+          </div>
 
+          <div class="row">
             <div class="col-sm-6">
-                <mat-card>
-                    <div class="row">
-                        <mat-card>
-                         <mat-card-subtitle> خيــــارات التقرير</mat-card-subtitle>
-                         <hr>
-                            <mat-form-field appearance="fill">
-                                <mat-label>  عنوان التقرير </mat-label>
-                                <input type="input" matInput placeholder="Placeholder">
-                                
-                                
-                              </mat-form-field>
-                        </mat-card>
-                    </div>
-
-                    <div class="row">
-                        <mat-card>
-                         <mat-card-subtitle> ترتيب التقرير</mat-card-subtitle>
-                            <hr>
-                            <mat-radio-group>
-                                <mat-radio-button value="حسب رقم الصنف">حسب رقم الصنف</mat-radio-button>
-                                <mat-radio-button value="حسب إسم الصنف">حسب إسم الصنف</mat-radio-button>
-                            </mat-radio-group>
-                        </mat-card>
-                    </div>
-
-                    <div class="row">
-                        <mat-card>
-                         <mat-checkbox>المخزون الإفتتاحي فقط</mat-checkbox>   
-                         <mat-checkbox>إظهار الأصناف ذات الحركة الصفرية</mat-checkbox>
-                         <mat-checkbox> الأصناف المحجوزة فـــقط</mat-checkbox>
-                         <mat-checkbox>المخزون حــســب الجرد</mat-checkbox>
-                         <mat-checkbox>إظهار المعادل من المقاييس والأوزان</mat-checkbox>
-
-                        </mat-card>
-                    </div>
-
-                    <div class="row">
-                        <mat-card>
-                         <mat-card-subtitle>  الأجمــــالي</mat-card-subtitle>
-                            <hr>
-                        <mat-select placeholder="عـــلى حسب...">
-                            <mat-option [value]="'val'">{{val}}</mat-option>
-                        </mat-select>
-                        </mat-card>
-                    </div>
-
-                    
-                </mat-card>
+              <mat-card>
+                <mat-form-field appearance="fill">
+                  <mat-label> رقم المجموعة</mat-label>
+                  <input type="number" matInput placeholder="Placeholder" />
+                </mat-form-field>
+              </mat-card>
             </div>
-        </div>
+            <div class="col-sm-6">
+              <mat-card>
+                <mat-form-field appearance="fill">
+                  <mat-label> الى</mat-label>
+                  <input type="number" matInput placeholder="Placeholder" />
+                </mat-form-field>
+              </mat-card>
+            </div>
+          </div>
 
-           
+          <div class="row">
+            <div class="col-sm-6">
+              <mat-card>
+                <mat-form-field appearance="fill">
+                  <mat-label>رقم الصنف </mat-label>
+                  <input matInput placeholder="Placeholder" />
+                </mat-form-field>
+              </mat-card>
+            </div>
+            <div class="col-sm-6">
+              <mat-card>
+                <mat-form-field appearance="fill">
+                  <mat-label> الى </mat-label>
+                  <input type="number" matInput placeholder="Placeholder" />
+                </mat-form-field>
+              </mat-card>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <mat-form-field appearance="fill">
+                <mat-label> إسم الصنف</mat-label>
+                <input matInput placeholder="Placeholder" />
+              </mat-form-field>
+            </div>
+            <div class="col-sm-6">
+              <mat-form-field appearance="fill">
+                <mat-label>مواصفات الصنف </mat-label>
+                <input matInput placeholder="Placeholder" />
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <mat-card>
+                <mat-select placeholder=" النـــوع">
+                  <mat-option [value]="'val'"></mat-option>
+                </mat-select>
+              </mat-card>
+            </div>
+            <div class="col-sm-6">
+              <mat-card>
+                <mat-select placeholder="الوحــدة">
+                  <mat-option [value]="'val'"></mat-option>
+                </mat-select>
+              </mat-card>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <mat-card>
+                <mat-select placeholder=" من المخــزن رقم">
+                  <mat-option [value]="'val'">{{ val }}</mat-option>
+                </mat-select>
+              </mat-card>
+            </div>
+            <div class="col-sm-6">
+              <mat-card>
+                <mat-select placeholder="الى">
+                  <mat-option [value]="'val'">{{ val }}</mat-option>
+                </mat-select>
+              </mat-card>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <mat-card>
+                <mat-radio-group>
+                  <mat-radio-button value="val">
+                    تجميع حسب الأصناف للكميات فقط</mat-radio-button
+                  >
+                </mat-radio-group>
+              </mat-card>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+
+      <div class="col-sm-6">
+        <mat-card>
+          <div class="row">
             <mat-card>
-                <mat-card-actions>
-                    <button mat-raised-button color="warn">طبــــاعة</button>
-                    <button mat-raised-button color="warn">تقـــرير بياني</button>
-                     
-                    </mat-card-actions>
+              <mat-card-subtitle> خيــــارات التقرير</mat-card-subtitle>
+              <hr />
+              <mat-form-field appearance="fill">
+                <mat-label> عنوان التقرير </mat-label>
+                <input type="input" matInput placeholder="Placeholder" />
+              </mat-form-field>
             </mat-card>
-    </mat-card-content>
-    
-    
+          </div>
+
+          <div class="row">
+            <mat-card>
+              <mat-card-subtitle> ترتيب التقرير</mat-card-subtitle>
+              <hr />
+              <mat-radio-group>
+                <mat-radio-button value="حسب رقم الصنف"
+                  >حسب رقم الصنف</mat-radio-button
+                >
+                <mat-radio-button value="حسب إسم الصنف"
+                  >حسب إسم الصنف</mat-radio-button
+                >
+              </mat-radio-group>
+            </mat-card>
+          </div>
+
+          <div class="row">
+            <mat-card>
+              <mat-checkbox>المخزون الإفتتاحي فقط</mat-checkbox>
+              <mat-checkbox>إظهار الأصناف ذات الحركة الصفرية</mat-checkbox>
+              <mat-checkbox> الأصناف المحجوزة فـــقط</mat-checkbox>
+              <mat-checkbox>المخزون حــســب الجرد</mat-checkbox>
+              <mat-checkbox>إظهار المعادل من المقاييس والأوزان</mat-checkbox>
+            </mat-card>
+          </div>
+
+          <div class="row">
+            <mat-card>
+              <mat-card-subtitle> الأجمــــالي</mat-card-subtitle>
+              <hr />
+              <mat-select placeholder="عـــلى حسب...">
+                <mat-option [value]="'val'">{{ val }}</mat-option>
+              </mat-select>
+            </mat-card>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+
+    <mat-card>
+      <mat-card-actions>
+        <button mat-raised-button color="warn">طبــــاعة</button>
+        <button mat-raised-button color="warn">تقـــرير بياني</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-card-content>
 </mat-card>

@@ -167,33 +167,26 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('فاتوره المبيعات المردوده ', '', '', '/app/sales-yields'),
                 new MenuItem(' الاصناف', '', '', '/app/catagory'),
                 new MenuItem('  مردودات السنوات السابقه ', '', '', '/app/yield-lastyears'),
-                new MenuItem(this.l(' توزيع تسديدات العملاء'), '', '', '/app/distribution-coustomer'),
-                new MenuItem(' اشعارات دائنه ومدينه', '', '', '/app/crdible-nofications'),
-                new MenuItem(' تسويه بنكيه', '', '', '/app/tribute-kn')
+               
             ]),
-            new MenuItem(this.l(' الترحيل'), '', '', '', [
-                new MenuItem(this.l(' القيود اليوميه'), '', '', ''),
-                new MenuItem(this.l('السندات النقديه'), '', '', '/app/migration-bonds'),
-                new MenuItem('السندات الشيكيه', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('الشيكات المستحقه', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('اوامر التوريد المخزنيه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('مردودات  اوامر التوريد', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem(' اوامر الصرف المخزنه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('الشيكات المستحقه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('   تسويه المخزون', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('   فواتير المشتريات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('   فواتير المشترياترالفوريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem(' مردودات المشتريات الفوريه ', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('   فواتير المبيعات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('   مردودات المبيعات', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl'),
-                new MenuItem('     مردودات  سنوات  سابقه     ', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
-            ]),
-            new MenuItem(this.l(' التقارير'), '', '', '', [
-                new MenuItem(this.l('دليل الحسابات'), '', '', ''),
-                new MenuItem('دليل مراكز التكلفه', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('الارصده الافتتاحيه', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('الموازنه التقديريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
-            ]),
+           
+            new MenuItem(this.l('  التقارير العملاء'), '', '', '', [
+               
+                 new MenuItem(this.l( 'تقارير بيانات العملاء'), '', '', '/app/customer-data-reports'),
+                 new MenuItem(this.l( 'تقارير  عروض الاسعار '), '', '', '/app/balsallo-reports'),
+                 new MenuItem(this.l( 'تقارير   طلبات العملاء '), '', '', '/app/report-request-customer'),
+                 new MenuItem(this.l( '    اعمار الديون '), '', '', '/app/debts-years'),
+                 new MenuItem(this.l( '     تقارير ارصده العملاء '), '', '', '/app/report-rased-customers'),
+                 new MenuItem(this.l( '       تقارير الاقساط '), '', '', '/app/premium-reports'),
+               
+                 
+                ]),
+                new MenuItem(this.l('   فواتير المبيعات'), '', '', '', [
+               
+                    new MenuItem(this.l( 'تقارير  فواتير المبيعات'), '', '', '/app/sales-invo-reports'),
+                    new MenuItem(this.l( '   هامش لربح الكلي '), '', '', '/app/gross-profit-margin'),
+          
+                   ]),
         ]),
 
 

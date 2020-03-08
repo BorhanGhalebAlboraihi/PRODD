@@ -1,0 +1,152 @@
+<mat-card dir="rtl">
+  <mat-card-header>
+    <div mat-card-avatar>avatar</div>
+    <mat-card-title> تقارير عروض الاسعار</mat-card-title>
+    <mat-card-subtitle> التقارير</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+      <mat-card>
+    <div class="row">
+      <div class="col-sm-6 col-sm-push-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> من تاريخ</mat-label>
+            <input type="date" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> الى </mat-label>
+            <input type="date" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-push-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> من رقم العرض</mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> الى </mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-sm-push-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> من رقم المناقصه</mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> الى</mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-push-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> من رقم العميل</mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> الى</mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 ">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> اسم العميل</mat-label>
+            <input type="text" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-sm-push-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> من رقم الصنف</mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6">
+        <mat-card>
+          <mat-form-field appearance="fill">
+            <mat-label> الى</mat-label>
+            <input type="number" matInput placeholder="Placeholder" />
+          </mat-form-field>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-sm-push-6">
+        <mat-card>
+          <mat-select placeholder="  طريق الدفع للعميل  ">
+            <mat-option [value]="'val'"></mat-option>
+          </mat-select>
+        </mat-card>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6">
+        <mat-card>
+          <mat-select placeholder=" نوع العميل">
+            <mat-option [value]="'val'"></mat-option>
+          </mat-select>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <mat-card style="margin-top: 100px;">
+          <mat-checkbox style="display: block;" value="" color="primary">
+            العروض المنفذه
+          </mat-checkbox>
+          <mat-checkbox style="display: block;" value="" color="primary">
+            العروض الغير منفذه
+          </mat-checkbox>
+        </mat-card>
+      </div>
+    </div>
+</mat-card>
+  </mat-card-content>
+
+  <mat-card-actions>
+    <mat-card>
+      <button mat-raised-button color="warn">طبــــاعة</button>
+      <button mat-raised-button color="warn">تقـــرير بياني</button>
+    </mat-card>
+  </mat-card-actions>
+</mat-card>
