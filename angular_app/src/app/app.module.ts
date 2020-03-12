@@ -143,6 +143,20 @@ import { ReportRasedCustomersComponent } from './Sales_managment/Reports_manger/
 import { PremiumReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Premium_reports/premium-reports/premium-reports.component';
 import { SalesInvoReportsComponent } from './Sales_managment/Reports_manger/Sales _invoice/Sales_invoice_reports/sales-invo-reports/sales-invo-reports.component';
 import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sales _invoice/Gross_profit_margin/gross-profit-margin/gross-profit-margin.component';
+import { MigrationConstDayesComponent } from './ِAccounts/Migrating/migration_const_dayes/migration-const-dayes/migration-const-dayes.component';
+import { CheckBondsComponent } from './ِAccounts/Migrating/Check_bonds/check-bonds/check-bonds.component';
+import { DueChecksComponent } from './ِAccounts/Migrating/Due_checks/due-checks/due-checks.component';
+import { StorSupplyOrdersComponent } from './ِAccounts/Migrating/Store _supply_orders/stor-supply-orders/stor-supply-orders.component';
+import { ReturnsExchangOrdersComponent } from './ِAccounts/Migrating/Returns_exchange_orders/returns-exchang-orders/returns-exchang-orders.component';
+import { StordExchangOrdersComponent } from './ِAccounts/Migrating/Stored_exchange_orders/stord-exchang-orders/stord-exchang-orders.component';
+import { StorAdjustmentComponent } from './ِAccounts/Migrating/Stock_adjustment/stor-adjustment/stor-adjustment.component';
+import { PurchaseInvoicesComponent } from './ِAccounts/Migrating/Purchase_invoices/purchase-invoices/purchase-invoices.component';
+import { ImmediateBillingPurchasesComponent } from './ِAccounts/Migrating/Immediate_billing_purchases/immediate-billing-purchases/immediate-billing-purchases.component';
+import { ImmediateReturnsComponent } from './ِAccounts/Migrating/Immediate_returns/immediate-returns/immediate-returns.component';
+import { SalesInvoiceComponent } from './ِAccounts/Migrating/Sales_invoices/sales-invoice/sales-invoice.component';
+import { ReturnsPurchasesComponent } from './ِAccounts/Migrating/Returns_purchases/returns-purchases/returns-purchases.component';
+import { SalesReturnsComponent } from './ِAccounts/Migrating/Sales_returns/sales-returns/sales-returns.component';
+import { ReturnsLastYearsComponent } from './ِAccounts/Migrating/Returns_last_years/returns-last-years/returns-last-years.component';
 
 
 
@@ -275,7 +289,21 @@ import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sal
     ReportRasedCustomersComponent,
     PremiumReportsComponent,
     SalesInvoReportsComponent,
-    GrossProfitMarginComponent
+    GrossProfitMarginComponent,
+    MigrationConstDayesComponent,
+    CheckBondsComponent,
+    DueChecksComponent,
+    StorSupplyOrdersComponent,
+    ReturnsExchangOrdersComponent,
+    StordExchangOrdersComponent,
+    StorAdjustmentComponent,
+    PurchaseInvoicesComponent,
+    ImmediateBillingPurchasesComponent,
+    ImmediateReturnsComponent,
+    SalesInvoiceComponent,
+    ReturnsPurchasesComponent,
+    SalesReturnsComponent,
+    ReturnsLastYearsComponent
       ],
 
   imports: [

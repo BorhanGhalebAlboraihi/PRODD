@@ -113,6 +113,20 @@ import { ReportRasedCustomersComponent } from './Sales_managment/Reports_manger/
 import { PremiumReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Premium_reports/premium-reports/premium-reports.component';
 import { SalesInvoReportsComponent } from './Sales_managment/Reports_manger/Sales _invoice/Sales_invoice_reports/sales-invo-reports/sales-invo-reports.component';
 import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sales _invoice/Gross_profit_margin/gross-profit-margin/gross-profit-margin.component';
+import { MigrationConstDayesComponent } from './ِAccounts/Migrating/migration_const_dayes/migration-const-dayes/migration-const-dayes.component';
+import { CheckBondsComponent } from './ِAccounts/Migrating/Check_bonds/check-bonds/check-bonds.component';
+import { DueChecksComponent } from './ِAccounts/Migrating/Due_checks/due-checks/due-checks.component';
+import { StorSupplyOrdersComponent } from './ِAccounts/Migrating/Store _supply_orders/stor-supply-orders/stor-supply-orders.component';
+import { ReturnsExchangOrdersComponent } from './ِAccounts/Migrating/Returns_exchange_orders/returns-exchang-orders/returns-exchang-orders.component';
+import { StordExchangOrdersComponent } from './ِAccounts/Migrating/Stored_exchange_orders/stord-exchang-orders/stord-exchang-orders.component';
+import { StorAdjustmentComponent } from './ِAccounts/Migrating/Stock_adjustment/stor-adjustment/stor-adjustment.component';
+import { PurchaseInvoicesComponent } from './ِAccounts/Migrating/Purchase_invoices/purchase-invoices/purchase-invoices.component';
+import { ImmediateBillingPurchasesComponent } from './ِAccounts/Migrating/Immediate_billing_purchases/immediate-billing-purchases/immediate-billing-purchases.component';
+import { ImmediateReturnsComponent } from './ِAccounts/Migrating/Immediate_returns/immediate-returns/immediate-returns.component';
+import { SalesInvoiceComponent } from './ِAccounts/Migrating/Sales_invoices/sales-invoice/sales-invoice.component';
+import { ReturnsPurchasesComponent } from './ِAccounts/Migrating/Returns_purchases/returns-purchases/returns-purchases.component';
+import { SalesReturnsComponent } from './ِAccounts/Migrating/Sales_returns/sales-returns/sales-returns.component';
+import { ReturnsLastYearsComponent } from './ِAccounts/Migrating/Returns_last_years/returns-last-years/returns-last-years.component';
 
 
 
@@ -178,10 +192,31 @@ import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sal
                     { path: ' distribution-coustomer', component: DistributionCoustomerComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: ' tribute-kn', component: TributeKnComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'tribute-kn', component: TributeKnComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'migration-const-dayes', component: MigrationConstDayesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'check-bonds', component: CheckBondsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'due-checks', component: DueChecksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'stor-supply-orders', component: StorSupplyOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'immediate-billing-purchases', component: ImmediateBillingPurchasesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'immediate-returns', component: ImmediateReturnsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'sales-invoice', component: SalesInvoiceComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'returns-purchases', component: ReturnsPurchasesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+
+                    { path: 'sales-returns', component: SalesReturnsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+
+
+                    
+                    { path: 'stor-adjustment', component: StorAdjustmentComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'purchase-invoices', component: PurchaseInvoicesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+
+
+                    
                     { path: 'crdible-nofications', component: CrdibleNoficationsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'migration-bonds', component:MigrationBondsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-                 
-                   
+                    { path: 'returns-exchang-orders', component:ReturnsExchangOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'stord-exchang-orders', component:StordExchangOrdersComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'returns-last-years', component:ReturnsLastYearsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+
+                    
                     
                     { path: 'inventory-coin ', component: InventoryCoinComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'currency-coin', component: CurrencyCoinComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },

@@ -12,6 +12,10 @@
     border: 0px transparent !important;
 }
 
+mat-card
+{
+  margin-bottom: 20px;
+}
 /* Ngx Pagination ============================== */
 a{cursor: pointer;
     text-decoration: none;
