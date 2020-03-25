@@ -1,0 +1,96 @@
+<mat-card dir="rtl">
+    <mat-card-header>
+      <div mat-card-avatar>avatar</div>
+      <mat-card-title>   اجمالي سندات صرف وقبض المبيعات </mat-card-title>
+      <mat-card-subtitle> التقارير</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-card>
+        <div class="row">
+          <div class="col-sm-12">
+            <fieldset>
+             <legend>خيارات التقرير</legend>
+  
+              <div class="row">
+                <div class="col-sm-6 col-sm-push-6">
+                  <mat-card>
+                    <mat-form-field appearance="fill">
+                      <mat-label> من تاريخ</mat-label>
+                      <input type="date" matInput placeholder="Placeholder" />
+                    </mat-form-field>
+                  </mat-card>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                  <mat-card>
+                    <mat-form-field appearance="fill">
+                      <mat-label> الى </mat-label>
+                      <input type="date" matInput placeholder="Placeholder" />
+                    </mat-form-field>
+                  </mat-card>
+                </div>
+              </div>
+  
+         
+            </fieldset>
+          </div>
+     
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+              <fieldset>
+               <legend> اظهار الاجمالي بعمله</legend>
+    
+                <div class="row">
+                  <div class="col-sm-6 col-sm-push-6">
+                    <mat-card>
+                        <mat-form-field>
+                          <mat-label> العمله</mat-label>
+      
+                          <mat-select >
+                            <mat-option> </mat-option>
+                          </mat-select>
+                        </mat-form-field>
+                      </mat-card>
+                  </div>
+                  <div class="col-sm-6 col-sm-pull-6">
+                   
+                    <mat-card>
+                        <mat-form-field>
+                          <mat-label> سعر الصرف</mat-label>
+                          <input
+                            matInput
+                            type="number"
+                            required
+                            minlength="2"
+                            maxlength="32"
+                          />
+                        </mat-form-field>
+                      </mat-card>
+                  </div>
+                </div>
+    
+           
+              </fieldset>
+            </div>
+       
+          </div>
+          <mat-card>
+            <mat-form-field appearance="fill">
+              <mat-label> تذبيل التقرير</mat-label>
+    
+              <textarea matInput required placeholder=""></textarea>
+            </mat-form-field>
+          </mat-card>
+      </mat-card>
+    </mat-card-content>
+    <div class="container">
+      <mat-card-actions>
+        <div class="row">
+          <div class="col-sm-12">
+            <button mat-raised-button color="warn">خروج</button>
+            <button mat-raised-button>طباعه</button>
+          </div>
+        </div>
+      </mat-card-actions>
+    </div>
+  </mat-card>

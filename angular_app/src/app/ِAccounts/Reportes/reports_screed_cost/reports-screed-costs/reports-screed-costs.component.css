@@ -1,0 +1,23 @@
+mat-radio-button {
+    margin-right: 30px;
+}
+mat-checkbox {
+    display: block;
+    direction: rtl;
+}
+mat-select
+{
+    direction: rtl;
+}
+.mat-checkbox-label {
+    line-height: 24px;
+   margin-right: 5px;
+  
+    
+}
+
+mat-label
+{
+    direction: rtl;
+    float: right;
+}

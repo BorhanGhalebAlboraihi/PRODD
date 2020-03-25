@@ -157,6 +157,38 @@ import { SalesInvoiceComponent } from './ِAccounts/Migrating/Sales_invoices/sal
 import { ReturnsPurchasesComponent } from './ِAccounts/Migrating/Returns_purchases/returns-purchases/returns-purchases.component';
 import { SalesReturnsComponent } from './ِAccounts/Migrating/Sales_returns/sales-returns/sales-returns.component';
 import { ReturnsLastYearsComponent } from './ِAccounts/Migrating/Returns_last_years/returns-last-years/returns-last-years.component';
+import { ScreedaccountingComponent } from './ِAccounts/Reportes/screed_acount/screedaccounting/screedaccounting.component';
+import { ScreedCentercostComponent } from './ِAccounts/Reportes/screed_center_cost/screed-centercost/screed-centercost.component';
+import { RasedOpeningsComponent } from './ِAccounts/Reportes/Rased_opening/rased-openings/rased-openings.component';
+import { NofatgationReportsComponent } from './ِAccounts/Reportes/Nofatagation_reports/nofatgation-reports/nofatgation-reports.component';
+import { ElevatedBalanceReportComponent } from './ِAccounts/Reportes/elevated_balance/elevated-balance-report/elevated-balance-report.component';
+import { CustomerRemburseReportComponent } from './ِAccounts/Reportes/Customer_reimbursement_report/customer-remburse-report/customer-remburse-report.component';
+import { MoveBoxsComponent } from './ِAccounts/Reportes/Move_box/move-boxs/move-boxs.component';
+import { MoveChecksComponent } from './ِAccounts/Reportes/Move_checks/move-checks/move-checks.component';
+import { AccountStatenentsComponent } from './ِAccounts/Reportes/Account_statements/account-statenents/account-statenents.component';
+import { MoniterMoveAccountComponent } from './ِAccounts/Reportes/Monitor_movement_accounts/moniter-move-account/moniter-move-account.component';
+import { StatisticsBalanceAccountComponent } from './ِAccounts/Reportes/Statistics_Balanced_Accounts/statistics-balance-account/statistics-balance-account.component';
+import { ReportsScreedCostsComponent } from './ِAccounts/Reportes/reports_screed_cost/reports-screed-costs/reports-screed-costs.component';
+import { GeneralTodayComponent } from './ِAccounts/Reportes/General_today/general-today/general-today.component';
+import { ScalesReturnsComponent } from './ِAccounts/Reportes/Scales_return/scales-returns/scales-returns.component';
+import { VariationLibrayComponent } from './ِAccounts/Reportes/Variation_libray/variation-libray/variation-libray.component';
+import { ProfitsLossesComponent } from './ِAccounts/Reportes/Profits_Losses/profits-losses/profits-losses.component';
+import { LibaryGeneralnessComponent } from './ِAccounts/Reportes/Libary_generalness/libary-generalness/libary-generalness.component';
+import { ConstTodayBondsComponent } from './ِAccounts/Reportes/Bonds/Const_todays_bonds/const-today-bonds/const-today-bonds.component';
+import { FolderTodayBondsComponent } from './ِAccounts/Reportes/Bonds/Folder_today/folder-today-bonds/folder-today-bonds.component';
+import { BondsNsgedReportsComponent } from './ِAccounts/Reportes/Bonds/bonds_naqed_reports/bonds-nsged-reports/bonds-nsged-reports.component';
+import { BondsBanksComponent } from './ِAccounts/Reportes/Bonds/Bonds_Banks/bonds-banks/bonds-banks.component';
+import { AccomptChacksComponent } from './ِAccounts/Reportes/Bonds/Accompt_chacks/accompt-chacks/accompt-chacks.component';
+import { MoveBondsCatchComponent } from './ِAccounts/Reportes/Bonds/Move_bonds_catch/move-bonds-catch/move-bonds-catch.component';
+import { TotalBondasCatchComponent } from './ِAccounts/Reportes/Bonds/Total_bondas_catch/total-bondas-catch/total-bondas-catch.component';
+import { OrdersResorsComponent } from './ِAccounts/Reportes/Bonds/Orders_Resors/orders-resors/orders-resors.component';
+import { ReturnsOrdersResorsComponent } from './ِAccounts/Reportes/Bonds/Retuens_orders_resors/returns-orders-resors/returns-orders-resors.component';
+import { OrdersPureStoringComponent } from './ِAccounts/Reportes/Bonds/Orders_pure_storing/orders-pure-storing/orders-pure-storing.component';
+import { BondsInvoicePurchasesComponent } from './ِAccounts/Reportes/Bonds/bonds_invoice_purchases/bonds-invoice-purchases/bonds-invoice-purchases.component';
+import { BondsReturnsPurchasesComponent } from './ِAccounts/Reportes/Bonds/bonds_Returns_purchases/bonds-returns-purchases/bonds-returns-purchases.component';
+import { BondsInvoiceSalesComponent } from './ِAccounts/Reportes/Bonds/bonds_invoice_sales/bonds-invoice-sales/bonds-invoice-sales.component';
+import { BondsReturnsSalesComponent } from './ِAccounts/Reportes/Bonds/bonds_Returns_sales/bonds-returns-sales/bonds-returns-sales.component';
+import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bonds_returns_lastyears/bonds-returne-lastyears/bonds-returne-lastyears.component';
 
 
 
@@ -303,7 +335,40 @@ import { ReturnsLastYearsComponent } from './ِAccounts/Migrating/Returns_last_y
     SalesInvoiceComponent,
     ReturnsPurchasesComponent,
     SalesReturnsComponent,
-    ReturnsLastYearsComponent
+    ReturnsLastYearsComponent,
+    ScreedaccountingComponent,
+    ScreedCentercostComponent,
+    RasedOpeningsComponent,
+    NofatgationReportsComponent,
+    ElevatedBalanceReportComponent,
+    CustomerRemburseReportComponent,
+    MoveBoxsComponent,
+    MoveChecksComponent,
+    AccountStatenentsComponent,
+    MoniterMoveAccountComponent,
+    StatisticsBalanceAccountComponent,
+    ReportsScreedCostsComponent,
+    GeneralTodayComponent,
+    ScalesReturnsComponent,
+    VariationLibrayComponent,
+    ProfitsLossesComponent,
+    LibaryGeneralnessComponent,
+    ConstTodayBondsComponent,
+    FolderTodayBondsComponent,
+    BondsNsgedReportsComponent,
+    BondsBanksComponent,
+    AccomptChacksComponent,
+    MoveBondsCatchComponent,
+    TotalBondasCatchComponent,
+    OrdersResorsComponent,
+    ReturnsOrdersResorsComponent,
+    OrdersPureStoringComponent,
+    BondsInvoicePurchasesComponent,
+    BondsReturnsPurchasesComponent,
+    BondsInvoiceSalesComponent,
+    BondsReturnsSalesComponent,
+    BondsReturneLastyearsComponent
+
       ],
 
   imports: [

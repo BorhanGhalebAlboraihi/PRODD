@@ -11,7 +11,11 @@
     margin: initial !important;
     border: 0px transparent !important;
 }
+legend
+{
 
+  direction: rtl;
+}
 mat-card
 {
   margin-bottom: 20px;

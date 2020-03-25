@@ -35,7 +35,7 @@ export class SideBarNavComponent extends AppComponentBase {
             ])
 
         ]),
-        new MenuItem(this.l('Stores'), '', 'business', '', [
+        new MenuItem(this.l('المخازن'), '', 'business', '', [
             new MenuItem(this.l('تهيئة النظام'), '', '', '', [
                 new MenuItem(this.l('المتغيرات'), '', '', '/app/sys-variables'),
                 new MenuItem('أنواع الأصناف', '', '', '/app/catacorytype'),
@@ -131,12 +131,47 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('     مردودات  سنوات  سابقه     ', '', '', '/app/returns-last-years')
             ]),
             new MenuItem(this.l(' التقارير'), '', '', '', [
-                new MenuItem(this.l('دليل الحسابات'), '', '', ''),
-                new MenuItem('دليل مراكز التكلفه', '', '', 'https://aspnetboilerplate.com/Templates?ref=abptmpl'),
-                new MenuItem('الارصده الافتتاحيه', '', '', 'https://aspnetboilerplate.com/Samples?ref=abptmpl'),
-                new MenuItem('الموازنه التقديريه', '', '', 'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl')
+                new MenuItem(this.l('دليل الحسابات'), '', '', '/app/screedaccounting'),
+                new MenuItem('دليل مراكز التكلفه', '', '', '/app/screed-centercost'),
+                new MenuItem('الارصده الافتتاحيه', '', '', '/app/rased-openings'),
+                new MenuItem('الموازنه التقديريه', '', '', '/app/elevated-balance-report'),
+
+                new MenuItem(' بدايه السندات', '', '', 'fjhsdgsas'),
+ 
+                new MenuItem('  القيود اليوميه', '', '', '/app/const-today-bonds'),
+                new MenuItem('   الحافظه اليوميه', '', '', '/app/folder-today-bonds'),
+                new MenuItem('  تقارير السندات النقديه', '', '', '/app/bonds-nsged-reports'),
+                new MenuItem('  تقارير السندات البنكيه ', '', '', '/app/bonds-banks'),
+                new MenuItem(' الشيكات المستحقه', '', '', '/app/accompt-chacks'),
+                new MenuItem('    حركه سندات القبض', '', '', '/app/move-bonds-catch'),
+                new MenuItem('   اجمالي سندات قبض وصرف المبيعات  ', '', '', '/app/total-bondas-catch'),
+                new MenuItem('   اوامر التوريد  ', '', '', '/app/orders-resors'),
+                new MenuItem('      مردودات اوامر التوريد', '', '', '/app/returns-orders-resors'),
+                new MenuItem('  اوامر الصرف المخزنيه', '', '', '/app/orders-pure-storing'),
+                new MenuItem('   فواتير المشتريات ', '', '', '/app/bonds-invoice-purchases'),
+                new MenuItem('  مردودات المشتريات', '', '', '/app/bonds-returns-purchases'),
+                new MenuItem('  فواتير المبيعات', '', '', '/app/bonds-invoice-sales'),
+                new MenuItem('   مردودات المبيعات', '', '', '/app/bonds-returns-sales'),
+                new MenuItem('    مردودات سنوات سابقه', '', '', '/app/bonds-returne-lastyears'),
+                new MenuItem(' نهايه السندات', '', '', 'jgdsfkls'),
+
+                 new MenuItem('  الاشعارات', '', '', '/app/nofatgation-reports'),
+                 new MenuItem(' السندات المفقوده', '', '', 'kkhjg'),
+                new MenuItem('  توزيع تسديدات العملاء', '', '', '/app/customer-remburse-report'),
+                new MenuItem('   كشوفات الحسابات', '', '', '/app/account-statenents'),
+                new MenuItem('   ارصده حركه الحسابات ', '', '', '/app/moniter-move-account'),
+                new MenuItem('  حركه الصناديق', '', '', '/app/move-boxs'),
+                new MenuItem(' حركه البنوك', '', '', '/app/move-checks'),
+                new MenuItem('     احصائيات ارصده الحسابات ', '', '', '/app/statistics-balance-account'),
+                new MenuItem('   مراكز التكلفه', '', '', '/app/reports-screed-costs'),
+                new MenuItem('     اليوميه العامه ', '', '', '/app/general-today'),
+                new MenuItem('     موازين المراجعه ', '', '', '/app/scales-returns'),
+                new MenuItem('    الانحراف الميزاني', '', '', '/app/variation-libray'),
+                new MenuItem('    الارباح والخسائر ', '', '', '/app/profits-losses'),
+                new MenuItem('      الميزانيه العموميه ', '', '', '/app/libary-generalness') 
             ]),
         ]),
+
 
         new MenuItem(this.l('المبيعات'), '', 'business', '', [
             new MenuItem(this.l('تهيئة النظام'), '', '', '', [
@@ -160,7 +195,7 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem(this.l(' اقساط العام الماضي '), '', '', '/app/premiums-lastyears'),
                 new MenuItem(this.l('   شاشه عروض الاسعار '), '', '', '/app/showrooms'),
                 new MenuItem(this.l('     طلبات العملاء '), '', '', '/app/customer-requests'),
-                new MenuItem('     فواتير المبيعات ', '', '', '/app-sales-bills'),
+                new MenuItem('     فواتير المبيعات ', '', '', '/app/sales-bills'),
                 new MenuItem(' امر صرف فاتوره المبيعات', '', '', '/app/order-sales'),
                 new MenuItem('فاتوره المبيعات المردوده ', '', '', '/app/sales-yields'),
                 new MenuItem(' الاصناف', '', '', '/app/catagory'),
