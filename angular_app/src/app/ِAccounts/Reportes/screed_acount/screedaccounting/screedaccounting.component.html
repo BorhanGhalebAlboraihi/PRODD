@@ -1,0 +1,137 @@
+<mat-card dir="rtl">
+  <mat-card-header>
+    <div mat-card-avatar>avatar</div>
+    <mat-card-title> تقارير دليل الحسابات</mat-card-title>
+    <mat-card-subtitle> التقارير</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-card style="margin-bottom: 50px;">
+      
+
+      <mat-card>
+        <div class="row">
+          <div class="col-sm-12">
+            <fieldset>
+              <legend>نوع الحساب </legend>
+              <mat-card>
+                <mat-radio-button value="val"> فرعي</mat-radio-button>
+                <mat-radio-button value="val"> رئسي</mat-radio-button>
+                <mat-radio-button value="val"> كلي</mat-radio-button>
+          
+              </mat-card>
+            </fieldset>
+          </div>
+        
+        </div>
+      </mat-card>
+    
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-6">
+          <mat-card>
+            <mat-form-field appearance="fill">
+              <mat-label> من حساب</mat-label>
+              <input type="number" matInput placeholder="Placeholder" />
+            </mat-form-field>
+          </mat-card>
+        </div>
+        <div class="col-sm-6 col-sm-pull-6">
+          <mat-card>
+            <mat-form-field appearance="fill">
+              <mat-label> الى حساب</mat-label>
+              <input type="number" matInput placeholder="Placeholder" />
+            </mat-form-field>
+          </mat-card>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 ">
+          <mat-card>
+            <mat-form-field appearance="fill">
+              <mat-label> اسم الحساب</mat-label>
+              <input type="text" matInput placeholder="Placeholder" />
+            </mat-form-field>
+          </mat-card>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-6">
+          <mat-card>
+            <mat-label>المستخدم</mat-label>
+            <mat-select placeholder="     ">
+              <mat-option [value]="'val'"></mat-option>
+            </mat-select>
+          </mat-card>
+        </div>
+        <div class="col-sm-6 col-sm-pull-6">
+          <mat-card>
+            <mat-form-field appearance="fill">
+              <mat-label> المستوى</mat-label>
+              <input type="text" matInput placeholder="Placeholder" />
+            </mat-form-field>
+          </mat-card>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-6">
+          <mat-card>
+            <mat-label>المجموعه</mat-label>
+            <mat-select placeholder="     ">
+              <mat-option [value]="'val'"></mat-option>
+            </mat-select>
+          </mat-card>
+        </div>
+        <div class="col-sm-6 col-sm-pull-6">
+          <mat-card>
+            <mat-label>العمله</mat-label>
+            <mat-select placeholder="     ">
+              <mat-option [value]="'val'"></mat-option>
+            </mat-select>
+          </mat-card>
+        </div>
+      </div>
+
+
+      <mat-card>
+        <div class="row">
+          <div class="col-sm-6 col-sm-push-6">
+            <fieldset>
+              <legend>نوع التقرير </legend>
+              <mat-card>
+                <mat-radio-button value="val"> ارباح وخسائر</mat-radio-button>
+                <mat-radio-button value="val"> ميزنيه عموميه</mat-radio-button>
+                <mat-radio-button value="val"> كلي</mat-radio-button>
+          
+              </mat-card>
+            </fieldset>
+          </div>
+          <div class="col-sm-6 col-sm-pull-6">
+            <fieldset>
+              <legend>ترتيب التقرير </legend>
+              <mat-card>
+                <mat-radio-button value="val">  حسب الاسم</mat-radio-button>
+                <mat-radio-button value="val">  حسب الرقم</mat-radio-button>
+          
+              </mat-card>
+            </fieldset>
+          </div>
+        </div>
+      </mat-card>
+     
+     
+     
+    </mat-card>
+
+ 
+
+  </mat-card-content>
+
+  <mat-card-actions>
+    <mat-card>
+      <button mat-raised-button color="warn">طبــــاعة</button>
+      <button mat-raised-button color="warn">تقـــرير بياني</button>
+    </mat-card>
+  </mat-card-actions>
+</mat-card>

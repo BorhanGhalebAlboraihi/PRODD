@@ -13,11 +13,15 @@ margin: 20px;
 margin-top: 10px;
 
 }
-span
+mat-radio-button
 {
-    margin-right: 5px;
+    margin-right: 15px;
 }
 table
 {
     width: 100%;
+}
+mat-card
+{
+    margin-top: 20px;
 }

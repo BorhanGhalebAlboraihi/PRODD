@@ -1,0 +1,206 @@
+<mat-card dir="rtl">
+  <mat-card-header>
+    <div mat-card-avatar>avatar</div>
+    <mat-card-title> تقارير الشيكات المستحقه </mat-card-title>
+    <mat-card-subtitle> التقارير</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-card>
+      <mat-card>
+        <mat-form-field>
+          <mat-label> المستخدم </mat-label>
+
+          <mat-select placeholder=" ">
+            <mat-option> </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <fieldset>
+            <legend>خيارات التقرير</legend>
+
+            <div class="row">
+              <div class="col-sm-6 col-sm-push-6">
+                <mat-card>
+                  <mat-form-field appearance="fill">
+                    <mat-label> من تاريخ</mat-label>
+                    <input type="date" matInput placeholder="Placeholder" />
+                  </mat-form-field>
+                </mat-card>
+              </div>
+              <div class="col-sm-6 col-sm-pull-6">
+                <mat-card>
+                  <mat-form-field appearance="fill">
+                    <mat-label> الى </mat-label>
+                    <input type="date" matInput placeholder="Placeholder" />
+                  </mat-form-field>
+                </mat-card>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-sm-push-6">
+                <mat-card>
+                  <mat-form-field>
+                    <mat-label> من رقم البنك </mat-label>
+
+                    <mat-select placeholder=" ">
+                      <mat-option> </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                </mat-card>
+              </div>
+
+              <div class="col-sm-6 col-sm-pull-6">
+                <mat-card>
+                  <mat-form-field>
+                    <mat-label> الى رقم </mat-label>
+
+                    <mat-select placeholder=" ">
+                      <mat-option> </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                </mat-card>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-sm-push-6">
+                <mat-card>
+                  <mat-form-field appearance="fill">
+                    <mat-label> من حساب رقم</mat-label>
+                    <input type="number" matInput placeholder="Placeholder" />
+                  </mat-form-field>
+                </mat-card>
+              </div>
+              <div class="col-sm-6 col-sm-pull-6">
+                <mat-card>
+                  <mat-form-field appearance="fill">
+                    <mat-label> الى رقم </mat-label>
+                    <input type="number" matInput placeholder="Placeholder" />
+                  </mat-form-field>
+                </mat-card>
+              </div>
+            </div>
+
+            <mat-card>
+              <mat-form-field>
+                <mat-label>اسم الحساب</mat-label>
+                <input
+                  matInput
+                  type="text"
+                  required
+                  minlength="2"
+                  maxlength="32"
+                />
+              </mat-form-field>
+            </mat-card>
+
+            <div class="row">
+              <div class="col-sm-6 col-sm-push-6">
+                <mat-card>
+                  <mat-form-field>
+                    <mat-label> من المركز رقم</mat-label>
+
+                    <mat-select placeholder=" ">
+                      <mat-option> </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                </mat-card>
+              </div>
+
+              <div class="col-sm-6 col-sm-pull-6">
+                <mat-card>
+                  <mat-form-field>
+                    <mat-label> الى رقم </mat-label>
+
+                    <mat-select placeholder=" ">
+                      <mat-option> </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                </mat-card>
+              </div>
+            </div>
+          </fieldset>
+
+
+        </div>
+       
+      </div>
+      <div class="row">
+        <div class="col-sm-12 ">
+            <fieldset>
+              <legend>انواع الشيكات</legend>
+  
+              <div class="row">
+                <div class="col-sm-6 col-sm-push-6">
+                  <mat-card>
+                    <mat-radio-button value="val">كل الشيكات</mat-radio-button>
+                    <mat-radio-button value="val"
+                      >الشيكات المستحقه</mat-radio-button
+                    >
+                    <mat-radio-button value="val"
+                      >الشيكات المحصله</mat-radio-button
+                    >
+                  </mat-card>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                  <mat-card>
+                    <mat-radio-button value="val">كل الشيكات</mat-radio-button>
+                    <mat-radio-button value="val"
+                      >الشيكات المستحقه</mat-radio-button
+                    >
+                    <mat-radio-button value="val"
+                      >الشيكات الغير مستحقه</mat-radio-button
+                    >
+                  </mat-card>
+                </div>
+              </div>
+  
+              <div class="row">
+                <div class="col-sm-6 col-sm-push-6">
+                  <mat-card>
+                    <mat-radio-button value="val" style="display: inline-block;">
+                      صرف</mat-radio-button
+                    >
+                    <mat-radio-button value="val" style="display: inline-block;">
+                      قبض</mat-radio-button
+                    >
+                  </mat-card>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                  <mat-card>
+                    <mat-radio-button value="val" style="display: inline-block;">
+                      شيك وحيد</mat-radio-button
+                    >
+                    <mat-radio-button value="val" style="display: inline-block;">
+                      شيك متعدد</mat-radio-button
+                    >
+                  </mat-card>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+      </div>
+      <mat-card>
+        <mat-form-field appearance="fill">
+          <mat-label> تذبيل التقرير</mat-label>
+
+          <textarea matInput required placeholder=""></textarea>
+        </mat-form-field>
+      </mat-card>
+    </mat-card>
+  </mat-card-content>
+  <div class="container">
+    <mat-card-actions>
+      <div class="row">
+        <div class="col-sm-12">
+          <button mat-raised-button color="warn">طباعه</button>
+          <button mat-raised-button>خروج</button>
+        </div>
+      </div>
+    </mat-card-actions>
+  </div>
+</mat-card>
