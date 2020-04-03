@@ -14,9 +14,10 @@ using Abp.Castle.Logging.Log4Net;
 using Abp.Extensions;
 using PRO.Configuration;
 using PRO.Identity;
-
+using PRO.EntityFrameworkCore;
 using Abp.AspNetCore.SignalR.Hubs;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace PRO.Web.Host.Startup
 {
@@ -25,10 +26,12 @@ namespace PRO.Web.Host.Startup
         private const string _defaultCorsPolicyName = "localhost";
 
         private readonly IConfigurationRoot _appConfiguration;
+       
 
         public Startup(IHostingEnvironment env)
         {
             _appConfiguration = env.GetAppConfiguration();
+           
         }
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
@@ -40,7 +43,7 @@ namespace PRO.Web.Host.Startup
 
             IdentityRegistrar.Register(services);
             AuthConfigurer.Configure(services, _appConfiguration);
-
+            
             services.AddSignalR();
 
             // Configure CORS for angular2 UI

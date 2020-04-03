@@ -113,6 +113,8 @@ import { ReportRasedCustomersComponent } from './Sales_managment/Reports_manger/
 import { PremiumReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Premium_reports/premium-reports/premium-reports.component';
 import { SalesInvoReportsComponent } from './Sales_managment/Reports_manger/Sales _invoice/Sales_invoice_reports/sales-invo-reports/sales-invo-reports.component';
 import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sales _invoice/Gross_profit_margin/gross-profit-margin/gross-profit-margin.component';
+import { EmployeesComponent } from './employees/employees.component';
+
 
 
 
@@ -131,6 +133,7 @@ import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sal
                     { path: 'users', component: UsersComponent, data: { permission: 'Pages.Users' }, canActivate: [AppRouteGuard] },
                     { path: 'roles', component: RolesComponent, data: { permission: 'Pages.Roles' }, canActivate: [AppRouteGuard] },
                     { path: 'tenants', component: TenantsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'employees', component: EmployeesComponent, data: { permission: 'Pages.Employees' }, canActivate: [AppRouteGuard] },
                     { path: 'sys-variables', component: SysVariablesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'catacorytype', component: CatacorytypeComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'vars-accont', component: VarsAccontComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
