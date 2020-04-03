@@ -114,7 +114,7 @@ import { PremiumReportsComponent } from './Sales_managment/Reports_manger/Report
 import { SalesInvoReportsComponent } from './Sales_managment/Reports_manger/Sales _invoice/Sales_invoice_reports/sales-invo-reports/sales-invo-reports.component';
 import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sales _invoice/Gross_profit_margin/gross-profit-margin/gross-profit-margin.component';
 
-import { EmployeesComponent } from './employees/employees.component';
+
 
 
 
