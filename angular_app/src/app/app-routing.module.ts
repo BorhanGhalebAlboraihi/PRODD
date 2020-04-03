@@ -182,7 +182,6 @@ import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bond
                     { path: 'users', component: UsersComponent, data: { permission: 'Pages.Users' }, canActivate: [AppRouteGuard] },
                     { path: 'roles', component: RolesComponent, data: { permission: 'Pages.Roles' }, canActivate: [AppRouteGuard] },
                     { path: 'tenants', component: TenantsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-                    { path: 'employees', component: EmployeesComponent, data: { permission: 'Pages.Employees' }, canActivate: [AppRouteGuard] },
                     { path: 'sys-variables', component: SysVariablesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'catacorytype', component: CatacorytypeComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'vars-accont', component: VarsAccontComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
