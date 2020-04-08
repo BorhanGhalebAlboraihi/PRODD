@@ -1034,6 +1034,21 @@ namespace PRO.Migrations
                     b.ToTable("AbpUsers");
                 });
 
+            modelBuilder.Entity("PRO.Employees.Employee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Gender");
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Employees");
+                });
+
             modelBuilder.Entity("PRO.MultiTenancy.Tenant", b =>
                 {
                     b.Property<int>("Id")

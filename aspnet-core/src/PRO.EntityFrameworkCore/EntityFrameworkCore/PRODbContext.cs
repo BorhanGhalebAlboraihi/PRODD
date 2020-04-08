@@ -7,6 +7,7 @@ using SalesSystem.Models.Accounts;
 using SalesSystem.Models.Accounts.CostCenters;
 using SalesSystem.Models.Accounts.AccountsVariarble;
 
+
 namespace PRO.EntityFrameworkCore
 {
     public class PRODbContext : AbpZeroDbContext<Tenant, Role, User, PRODbContext>
@@ -31,6 +32,7 @@ namespace PRO.EntityFrameworkCore
         //public DbSet<Summation> Summations { get; set; }
         //public DbSet<SalesAreas> SalesAreas { get; set; }
         //public DbSet<CustomersType> customersTypes { get; set; }
+
 
 
         public PRODbContext(DbContextOptions<PRODbContext> options)
