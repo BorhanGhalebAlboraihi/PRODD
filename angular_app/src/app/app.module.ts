@@ -336,7 +336,6 @@ import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bond
     ReturnsPurchasesComponent,
     SalesReturnsComponent,
     ReturnsLastYearsComponent,
-    ScreedaccountingComponent,
     ScreedCentercostComponent,
     RasedOpeningsComponent,
     NofatgationReportsComponent,
