@@ -72,3 +72,5 @@ INFO  2020-04-08 18:01:10,907 [31   ] .Mvc.Infrastructure.ObjectResultExecutor -
 INFO  2020-04-08 18:01:10,942 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action PRO.SYS_Services.AccountsAdmin.CostCenters.CostCentersAppService.GetAllCenterGroupes (PRO.Application) in 1827.8019ms
 INFO  2020-04-08 18:01:10,945 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PRO.SYS_Services.AccountsAdmin.CostCenters.CostCentersAppService.GetAllCenterGroupes (PRO.Application)'
 INFO  2020-04-08 18:01:10,948 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1876.7249ms 200 application/json; charset=utf-8
+INFO  2020-04-08 18:06:53,929 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-04-08 18:06:53,945 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.3565ms 200 application/json;charset=utf-8
