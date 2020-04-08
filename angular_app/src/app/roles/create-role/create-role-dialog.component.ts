@@ -10,6 +10,7 @@ import {
   PermissionDto,
   CreateRoleDto
 } from '@shared/service-proxies/service-proxies';
+import { from } from 'rxjs';
 
 @Component({
   templateUrl: 'create-role-dialog.component.html',

@@ -17,31 +17,31 @@ import { ExchangeOrdersComponent } from './stores/init_system/exchange-orders/ex
 import { ConversionOrdersComponent } from './stores/init_system/conversion-orders/conversion-orders/conversion-orders.component';
 import { MeasurementUnitsComponent } from './stores/init_system/measurement_units/measurement-units/measurement-units.component';
 
-import { VarsAccontComponent } from './ِAccounts/init-system/Var-Accont/vars-accont/vars-accont.component';
-import { FatratAccuntComponent } from './ِAccounts/init-system/fatrah_Accounting/fatrat-accunt/fatrat-accunt.component';
-import { DataManyComponent } from './ِAccounts/init-system/Data-many/data-many/data-many.component';
-import { SetAccountComponent } from './ِAccounts/init-system/Set_Accont/set-account/set-account.component';
-import { ConstTypeComponent } from './ِAccounts/init-system/const_type_today/const-type/const-type.component';
-import { CenterCostTypeComponent } from './ِAccounts/init-system/Center_cost_set/center-cost-type/center-cost-type.component';
+import { VarsAccontComponent } from './Accounts/init-system/Var-Accont/vars-accont/vars-accont.component';
+import { FatratAccuntComponent } from './Accounts/init-system/fatrah_Accounting/fatrat-accunt/fatrat-accunt.component';
+import { DataManyComponent } from './Accounts/init-system/Data-many/data-many/data-many.component';
+import { SetAccountComponent } from './Accounts/init-system/Set_Accont/set-account/set-account.component';
+import { ConstTypeComponent } from './Accounts/init-system/const_type_today/const-type/const-type.component';
+import { CenterCostTypeComponent } from './Accounts/init-system/Center_cost_set/center-cost-type/center-cost-type.component';
 import { accountModuleAnimation } from '@shared/animations/routerTransition';
-import { AccountMadialComponent } from './ِAccounts/init-system/Account-Madial/account-madial/account-madial.component';
-import { BanksComponent } from './ِAccounts/Input-bases/Banke/banks/banks.component';
-import { ScreedAccountComponent } from './ِAccounts/Input-bases/Screed-Accounting/screed-account/screed-account.component';
-import { RasedOpenComponent } from './ِAccounts/Input-bases/Rased_Accounting/rased-open/rased-open.component';
-import { BoxsAccountComponent } from './ِAccounts/Input-bases/Box_Account/boxs-account/boxs-account.component';
-import { ElevatedBalanceComponent } from './ِAccounts/Input-bases/Elevated-balance/elevated-balance/elevated-balance.component';
-import { OperatingToddaysComponent } from './ِAccounts/Operating_Account/constracting_todays/operating-toddays/operating-toddays.component';
-import { SershConstDayesComponent } from './ِAccounts/Operating_Account/constracting_todays/operating-toddays/Sersh-const-dayes/sersh-const-dayes/sersh-const-dayes.component';
-import { DailyExtchangeComponent } from './ِAccounts/Operating_Account/constracting_todays/operating-toddays/daily-extchsnge/daily-extchange/daily-extchange.component';
-import { DailyArrestsComponent } from './ِAccounts/Operating_Account/constracting_todays/operating-toddays/Daily -arrests/daily-arrests/daily-arrests.component';
-import { TesionsOfarrestsComponent } from './ِAccounts/Operating_Account/Tensions-of-arrests/tesions-ofarrests/tesions-ofarrests.component';
-import { WindsonsComponent } from './ِAccounts/Operating_Account/Windsons/windsons/windsons.component';
-import { MultiChecksComponent } from './ِAccounts/Operating_Account/Multi-checks/multi-checks/multi-checks.component';
-import { ChecksComponent } from './ِAccounts/Operating_Account/checks/checks/checks.component';
-import { DistributionCoustomerComponent } from './ِAccounts/Operating_Account/Distribution-custommer-claims/distribution-coustomer/distribution-coustomer.component';
-import { CrdibleNoficationsComponent } from './ِAccounts/Operating_Account/Credible_notfications/crdible-nofications/crdible-nofications.component';
-import { TributeKnComponent } from './ِAccounts/Operating_Account/Tributetokn/tribute-kn/tribute-kn.component';
-import { MigrationBondsComponent } from './ِAccounts/Migrating/migration_cash_bonds/migration-bonds/migration-bonds.component';
+import { AccountMadialComponent } from './Accounts/init-system/Account-Madial/account-madial/account-madial.component';
+import { BanksComponent } from './Accounts/Input-bases/Banke/banks/banks.component';
+
+import { RasedOpenComponent } from './Accounts/Input-bases/Rased_Accounting/rased-open/rased-open.component';
+import { BoxsAccountComponent } from './Accounts/Input-bases/Box_Account/boxs-account/boxs-account.component';
+import { ElevatedBalanceComponent } from './Accounts/Input-bases/Elevated-balance/elevated-balance/elevated-balance.component';
+import { OperatingToddaysComponent } from './Accounts/Operating_Account/constracting_todays/operating-toddays/operating-toddays.component';
+import { SershConstDayesComponent } from './Accounts/Operating_Account/constracting_todays/operating-toddays/Sersh-const-dayes/sersh-const-dayes/sersh-const-dayes.component';
+import { DailyExtchangeComponent } from './Accounts/Operating_Account/constracting_todays/operating-toddays/daily-extchsnge/daily-extchange/daily-extchange.component';
+import { DailyArrestsComponent } from './Accounts/Operating_Account/constracting_todays/operating-toddays/Daily -arrests/daily-arrests/daily-arrests.component';
+import { TesionsOfarrestsComponent } from './Accounts/Operating_Account/Tensions-of-arrests/tesions-ofarrests/tesions-ofarrests.component';
+import { WindsonsComponent } from './Accounts/Operating_Account/Windsons/windsons/windsons.component';
+import { MultiChecksComponent } from './Accounts/Operating_Account/Multi-checks/multi-checks/multi-checks.component';
+import { ChecksComponent } from './Accounts/Operating_Account/checks/checks/checks.component';
+import { DistributionCoustomerComponent } from './Accounts/Operating_Account/Distribution-custommer-claims/distribution-coustomer/distribution-coustomer.component';
+import { CrdibleNoficationsComponent } from './Accounts/Operating_Account/Credible_notfications/crdible-nofications/crdible-nofications.component';
+import { TributeKnComponent } from './Accounts/Operating_Account/Tributetokn/tribute-kn/tribute-kn.component';
+import { MigrationBondsComponent } from './Accounts/Migrating/migration_cash_bonds/migration-bonds/migration-bonds.component';
 import { DataAreaComponent } from './Sales_managment/input_system/Data_area/data-area/data-area.component';
 import { DataCalegeComponent } from './Sales_managment/input_system/data-calege/data-calege/data-calege.component';
 import { DataDelegatesComponent } from './Sales_managment/input_system/data_of_delegates/data-delegates/data-delegates.component';
@@ -113,53 +113,59 @@ import { ReportRasedCustomersComponent } from './Sales_managment/Reports_manger/
 import { PremiumReportsComponent } from './Sales_managment/Reports_manger/Reports_customer/Premium_reports/premium-reports/premium-reports.component';
 import { SalesInvoReportsComponent } from './Sales_managment/Reports_manger/Sales _invoice/Sales_invoice_reports/sales-invo-reports/sales-invo-reports.component';
 import { GrossProfitMarginComponent } from './Sales_managment/Reports_manger/Sales _invoice/Gross_profit_margin/gross-profit-margin/gross-profit-margin.component';
-import { MigrationConstDayesComponent } from './ِAccounts/Migrating/migration_const_dayes/migration-const-dayes/migration-const-dayes.component';
-import { CheckBondsComponent } from './ِAccounts/Migrating/Check_bonds/check-bonds/check-bonds.component';
-import { DueChecksComponent } from './ِAccounts/Migrating/Due_checks/due-checks/due-checks.component';
-import { StorSupplyOrdersComponent } from './ِAccounts/Migrating/Store _supply_orders/stor-supply-orders/stor-supply-orders.component';
-import { ReturnsExchangOrdersComponent } from './ِAccounts/Migrating/Returns_exchange_orders/returns-exchang-orders/returns-exchang-orders.component';
-import { StordExchangOrdersComponent } from './ِAccounts/Migrating/Stored_exchange_orders/stord-exchang-orders/stord-exchang-orders.component';
-import { StorAdjustmentComponent } from './ِAccounts/Migrating/Stock_adjustment/stor-adjustment/stor-adjustment.component';
-import { PurchaseInvoicesComponent } from './ِAccounts/Migrating/Purchase_invoices/purchase-invoices/purchase-invoices.component';
-import { ImmediateBillingPurchasesComponent } from './ِAccounts/Migrating/Immediate_billing_purchases/immediate-billing-purchases/immediate-billing-purchases.component';
-import { ImmediateReturnsComponent } from './ِAccounts/Migrating/Immediate_returns/immediate-returns/immediate-returns.component';
-import { SalesInvoiceComponent } from './ِAccounts/Migrating/Sales_invoices/sales-invoice/sales-invoice.component';
-import { ReturnsPurchasesComponent } from './ِAccounts/Migrating/Returns_purchases/returns-purchases/returns-purchases.component';
-import { SalesReturnsComponent } from './ِAccounts/Migrating/Sales_returns/sales-returns/sales-returns.component';
-import { ReturnsLastYearsComponent } from './ِAccounts/Migrating/Returns_last_years/returns-last-years/returns-last-years.component';
-import { ScreedaccountingComponent } from './ِAccounts/Reportes/screed_acount/screedaccounting/screedaccounting.component';
-import { ScreedCentercostComponent } from './ِAccounts/Reportes/screed_center_cost/screed-centercost/screed-centercost.component';
-import { RasedOpeningsComponent } from './ِAccounts/Reportes/Rased_opening/rased-openings/rased-openings.component';
-import { NofatgationReportsComponent } from './ِAccounts/Reportes/Nofatagation_reports/nofatgation-reports/nofatgation-reports.component';
-import { ElevatedBalanceReportComponent } from './ِAccounts/Reportes/elevated_balance/elevated-balance-report/elevated-balance-report.component';
-import { CustomerRemburseReportComponent } from './ِAccounts/Reportes/Customer_reimbursement_report/customer-remburse-report/customer-remburse-report.component';
-import { MoveBoxsComponent } from './ِAccounts/Reportes/Move_box/move-boxs/move-boxs.component';
-import { MoveChecksComponent } from './ِAccounts/Reportes/Move_checks/move-checks/move-checks.component';
-import { AccountStatenentsComponent } from './ِAccounts/Reportes/Account_statements/account-statenents/account-statenents.component';
-import { MoniterMoveAccountComponent } from './ِAccounts/Reportes/Monitor_movement_accounts/moniter-move-account/moniter-move-account.component';
-import { StatisticsBalanceAccountComponent } from './ِAccounts/Reportes/Statistics_Balanced_Accounts/statistics-balance-account/statistics-balance-account.component';
-import { ReportsScreedCostsComponent } from './ِAccounts/Reportes/reports_screed_cost/reports-screed-costs/reports-screed-costs.component';
-import { GeneralTodayComponent } from './ِAccounts/Reportes/General_today/general-today/general-today.component';
-import { ScalesReturnsComponent } from './ِAccounts/Reportes/Scales_return/scales-returns/scales-returns.component';
-import { VariationLibrayComponent } from './ِAccounts/Reportes/Variation_libray/variation-libray/variation-libray.component';
-import { ProfitsLossesComponent } from './ِAccounts/Reportes/Profits_Losses/profits-losses/profits-losses.component';
-import { LibaryGeneralnessComponent } from './ِAccounts/Reportes/Libary_generalness/libary-generalness/libary-generalness.component';
-import { ConstTodayBondsComponent } from './ِAccounts/Reportes/Bonds/Const_todays_bonds/const-today-bonds/const-today-bonds.component';
-import { FolderTodayBondsComponent } from './ِAccounts/Reportes/Bonds/Folder_today/folder-today-bonds/folder-today-bonds.component';
-import { BondsNsgedReportsComponent } from './ِAccounts/Reportes/Bonds/bonds_naqed_reports/bonds-nsged-reports/bonds-nsged-reports.component';
-import { BondsBanksComponent } from './ِAccounts/Reportes/Bonds/Bonds_Banks/bonds-banks/bonds-banks.component';
-import { AccomptChacksComponent } from './ِAccounts/Reportes/Bonds/Accompt_chacks/accompt-chacks/accompt-chacks.component';
-import { MoveBondsCatchComponent } from './ِAccounts/Reportes/Bonds/Move_bonds_catch/move-bonds-catch/move-bonds-catch.component';
-import { TotalBondasCatchComponent } from './ِAccounts/Reportes/Bonds/Total_bondas_catch/total-bondas-catch/total-bondas-catch.component';
-import { OrdersResorsComponent } from './ِAccounts/Reportes/Bonds/Orders_Resors/orders-resors/orders-resors.component';
-import { ReturnsOrdersResorsComponent } from './ِAccounts/Reportes/Bonds/Retuens_orders_resors/returns-orders-resors/returns-orders-resors.component';
-import { OrdersPureStoringComponent } from './ِAccounts/Reportes/Bonds/Orders_pure_storing/orders-pure-storing/orders-pure-storing.component';
-import { BondsInvoicePurchasesComponent } from './ِAccounts/Reportes/Bonds/bonds_invoice_purchases/bonds-invoice-purchases/bonds-invoice-purchases.component';
-import { BondsReturnsPurchasesComponent } from './ِAccounts/Reportes/Bonds/bonds_Returns_purchases/bonds-returns-purchases/bonds-returns-purchases.component';
-import { BondsInvoiceSalesComponent } from './ِAccounts/Reportes/Bonds/bonds_invoice_sales/bonds-invoice-sales/bonds-invoice-sales.component';
-import { BondsReturnsSalesComponent } from './ِAccounts/Reportes/Bonds/bonds_Returns_sales/bonds-returns-sales/bonds-returns-sales.component';
-import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bonds_returns_lastyears/bonds-returne-lastyears/bonds-returne-lastyears.component';
- 
+
+
+
+
+
+
+import { MigrationConstDayesComponent } from './Accounts/Migrating/migration_const_dayes/migration-const-dayes/migration-const-dayes.component';
+import { CheckBondsComponent } from './Accounts/Migrating/Check_bonds/check-bonds/check-bonds.component';
+import { DueChecksComponent } from './Accounts/Migrating/Due_checks/due-checks/due-checks.component';
+import { StorSupplyOrdersComponent } from './Accounts/Migrating/Store _supply_orders/stor-supply-orders/stor-supply-orders.component';
+import { ReturnsExchangOrdersComponent } from './Accounts/Migrating/Returns_exchange_orders/returns-exchang-orders/returns-exchang-orders.component';
+import { StordExchangOrdersComponent } from './Accounts/Migrating/Stored_exchange_orders/stord-exchang-orders/stord-exchang-orders.component';
+import { StorAdjustmentComponent } from './Accounts/Migrating/Stock_adjustment/stor-adjustment/stor-adjustment.component';
+import { PurchaseInvoicesComponent } from './Accounts/Migrating/Purchase_invoices/purchase-invoices/purchase-invoices.component';
+import { ImmediateBillingPurchasesComponent } from './Accounts/Migrating/Immediate_billing_purchases/immediate-billing-purchases/immediate-billing-purchases.component';
+import { ImmediateReturnsComponent } from './Accounts/Migrating/Immediate_returns/immediate-returns/immediate-returns.component';
+import { SalesInvoiceComponent } from './Accounts/Migrating/Sales_invoices/sales-invoice/sales-invoice.component';
+import { ReturnsPurchasesComponent } from './Accounts/Migrating/Returns_purchases/returns-purchases/returns-purchases.component';
+import { SalesReturnsComponent } from './Accounts/Migrating/Sales_returns/sales-returns/sales-returns.component';
+import { ReturnsLastYearsComponent } from './Accounts/Migrating/Returns_last_years/returns-last-years/returns-last-years.component';
+import { ScreedCentercostComponent } from './Accounts/Reportes/screed_center_cost/screed-centercost/screed-centercost.component';
+import { RasedOpeningsComponent } from './Accounts/Reportes/Rased_opening/rased-openings/rased-openings.component';
+import { NofatgationReportsComponent } from './Accounts/Reportes/Nofatagation_reports/nofatgation-reports/nofatgation-reports.component';
+import { ElevatedBalanceReportComponent } from './Accounts/Reportes/elevated_balance/elevated-balance-report/elevated-balance-report.component';
+import { CustomerRemburseReportComponent } from './Accounts/Reportes/Customer_reimbursement_report/customer-remburse-report/customer-remburse-report.component';
+import { MoveBoxsComponent } from './Accounts/Reportes/Move_box/move-boxs/move-boxs.component';
+import { MoveChecksComponent } from './Accounts/Reportes/Move_checks/move-checks/move-checks.component';
+import { AccountStatenentsComponent } from './Accounts/Reportes/Account_statements/account-statenents/account-statenents.component';
+import { MoniterMoveAccountComponent } from './Accounts/Reportes/Monitor_movement_accounts/moniter-move-account/moniter-move-account.component';
+import { StatisticsBalanceAccountComponent } from './Accounts/Reportes/Statistics_Balanced_Accounts/statistics-balance-account/statistics-balance-account.component';
+import { ReportsScreedCostsComponent } from './Accounts/Reportes/reports_screed_cost/reports-screed-costs/reports-screed-costs.component';
+import { GeneralTodayComponent } from './Accounts/Reportes/General_today/general-today/general-today.component';
+import { ScalesReturnsComponent } from './Accounts/Reportes/Scales_return/scales-returns/scales-returns.component';
+import { VariationLibrayComponent } from './Accounts/Reportes/Variation_libray/variation-libray/variation-libray.component';
+import { ProfitsLossesComponent } from './Accounts/Reportes/Profits_Losses/profits-losses/profits-losses.component';
+import { LibaryGeneralnessComponent } from './Accounts/Reportes/Libary_generalness/libary-generalness/libary-generalness.component';
+import { ConstTodayBondsComponent } from './Accounts/Reportes/Bonds/Const_todays_bonds/const-today-bonds/const-today-bonds.component';
+import { FolderTodayBondsComponent } from './Accounts/Reportes/Bonds/Folder_today/folder-today-bonds/folder-today-bonds.component';
+import { BondsNsgedReportsComponent } from './Accounts/Reportes/Bonds/bonds_naqed_reports/bonds-nsged-reports/bonds-nsged-reports.component';
+import { BondsBanksComponent } from './Accounts/Reportes/Bonds/Bonds_Banks/bonds-banks/bonds-banks.component';
+import { AccomptChacksComponent } from './Accounts/Reportes/Bonds/Accompt_chacks/accompt-chacks/accompt-chacks.component';
+import { MoveBondsCatchComponent } from './Accounts/Reportes/Bonds/Move_bonds_catch/move-bonds-catch/move-bonds-catch.component';
+import { TotalBondasCatchComponent } from './Accounts/Reportes/Bonds/Total_bondas_catch/total-bondas-catch/total-bondas-catch.component';
+import { OrdersResorsComponent } from './Accounts/Reportes/Bonds/Orders_Resors/orders-resors/orders-resors.component';
+import { ReturnsOrdersResorsComponent } from './Accounts/Reportes/Bonds/Retuens_orders_resors/returns-orders-resors/returns-orders-resors.component';
+import { OrdersPureStoringComponent } from './Accounts/Reportes/Bonds/Orders_pure_storing/orders-pure-storing/orders-pure-storing.component';
+import { BondsInvoicePurchasesComponent } from './Accounts/Reportes/Bonds/bonds_invoice_purchases/bonds-invoice-purchases/bonds-invoice-purchases.component';
+import { BondsReturnsPurchasesComponent } from './Accounts/Reportes/Bonds/bonds_Returns_purchases/bonds-returns-purchases/bonds-returns-purchases.component';
+import { BondsInvoiceSalesComponent } from './Accounts/Reportes/Bonds/bonds_invoice_sales/bonds-invoice-sales/bonds-invoice-sales.component';
+import { BondsReturnsSalesComponent } from './Accounts/Reportes/Bonds/bonds_Returns_sales/bonds-returns-sales/bonds-returns-sales.component';
+import { BondsReturneLastyearsComponent } from './Accounts/Reportes/Bonds/bonds_returns_lastyears/bonds-returne-lastyears/bonds-returne-lastyears.component';
+import { ChartOfAccountssComponent } from './Accounts/Input-bases/ChartOfAccounts/chartOfAccounts.component';
+import { CostCenterssComponent } from './Accounts/Input-bases/CostCenters/costCenters.component';
 
 
 
@@ -176,8 +182,8 @@ import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bond
                     { path: 'users', component: UsersComponent, data: { permission: 'Pages.Users' }, canActivate: [AppRouteGuard] },
                     { path: 'roles', component: RolesComponent, data: { permission: 'Pages.Roles' }, canActivate: [AppRouteGuard] },
                     { path: 'tenants', component: TenantsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-                    { path: 'sys-variables', component: SysVariablesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-                    { path: 'catacorytype', component: CatacorytypeComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path:  'sys-variables', component: SysVariablesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path:  'catacorytype', component: CatacorytypeComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'vars-accont', component: VarsAccontComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'fatrat-accunt', component: FatratAccuntComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
             
@@ -213,7 +219,7 @@ import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bond
                     { path: 'sersh-const-dayes', component: SershConstDayesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'daily-arrests', component: DailyArrestsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'banks', component: BanksComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-                    { path: 'screed-account', component: ScreedAccountComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    
                     { path: 'rased-open', component: RasedOpenComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'tesions-ofarrests', component: TesionsOfarrestsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'windsons', component: WindsonsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
@@ -279,7 +285,7 @@ import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bond
                     { path: 'measurement-units', component: MeasurementUnitsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                    
                     { path: 'customer-data-reports', component: CustomerDataReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
-                    { path: 'screedaccounting', component: ScreedaccountingComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                   
                     { path: 'screed-centercost', component: ScreedCentercostComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'rased-openings', component: RasedOpeningsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'nofatgation-reports', component:NofatgationReportsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
@@ -355,6 +361,8 @@ import { BondsReturneLastyearsComponent } from './ِAccounts/Reportes/Bonds/bond
                     { path: 'global-options', component: GlobalOptionsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'notifcations', component: NotifcationsComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
                     { path: 'reports-signatures', component: ReportsSignaturesComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'chartOfAccounts', component: ChartOfAccountssComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
+                    { path: 'CostCenters', component: CostCenterssComponent, data: { permission: 'Pages.Tenants' }, canActivate: [AppRouteGuard] },
 
                     { path: 'about', component: AboutComponent },
                     { path: 'update-password', component: ChangePasswordComponent }

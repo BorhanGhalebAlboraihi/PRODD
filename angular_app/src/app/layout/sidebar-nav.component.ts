@@ -14,6 +14,7 @@ export class SideBarNavComponent extends AppComponentBase {
 
         new MenuItem(this.l('Tenants'), 'Pages.Tenants', 'business', '/app/tenants'),
         new MenuItem(this.l('Users'), 'Pages.Users', 'people', '/app/users'),
+       
         new MenuItem(this.l('Roles'), 'Pages.Roles', 'local_offer', '/app/roles'),
         new MenuItem(this.l('إدرارة النظام'), '', 'business', '', [
             new MenuItem(this.l('تهيئة النظام'), '', '', '', [
@@ -91,8 +92,8 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('  الحسابات الوسيطه', '', '', '/app/account-madial'),
                      ]),
             new MenuItem(this.l('المدخلات الأساسية'), '', '', '', [
-                new MenuItem(this.l('الدليل المحاسبي'), '', '', '/app/screed-account'),
-                new MenuItem('مراكز التكلفه', '', '', ''),
+                new MenuItem(this.l('الدليل المحاسبي'), '', '', '/app/chartOfAccounts'),
+                new MenuItem('مراكز التكلفه', '', '', '/app/CostCenters'),
                 new MenuItem('الصناديق', '', '', '/app/boxs-account'),
                 new MenuItem('البنوك', '', '', '/app/banks'),
                 new MenuItem('الارصده الاحتياطيه', '', '', '/app/rased-open'),
@@ -131,7 +132,7 @@ export class SideBarNavComponent extends AppComponentBase {
                 new MenuItem('     مردودات  سنوات  سابقه     ', '', '', '/app/returns-last-years')
             ]),
             new MenuItem(this.l(' التقارير'), '', '', '', [
-                new MenuItem(this.l('دليل الحسابات'), '', '', '/app/screedaccounting'),
+                new MenuItem(this.l('دليل الحسابات'), '', '', '/app/accountingusherappsing'),
                 new MenuItem('دليل مراكز التكلفه', '', '', '/app/screed-centercost'),
                 new MenuItem('الارصده الافتتاحيه', '', '', '/app/rased-openings'),
                 new MenuItem('الموازنه التقديريه', '', '', '/app/elevated-balance-report'),

@@ -2,6 +2,7 @@
 
 namespace PRO.Roles.Dto
 {
+    
     public class GetRoleForEditOutput
     {
         public RoleEditDto Role { get; set; }
